@@ -7,8 +7,8 @@
   >
     <base-subheading
       class="mb-12"
-      subtitle="How CRYPTO Coin is doing"
-      title="Market Data"
+      subtitle="How TruPart builds the future"
+      title="Our Stats"
     />
 
     <v-container>

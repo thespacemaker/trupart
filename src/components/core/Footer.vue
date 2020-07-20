@@ -24,14 +24,14 @@
                 contain
               />
             </v-avatar>
-            CRYPTO Coin
+            TruPart Manufacturing
           </div>
 
           <div class="subtitle-1 font-weight-light mb-6 hidden-sm-and-down">
-            CRYPTO Coin is being developed by:<br>
-            CRYPTO Coin Affiliates LLC (Fort Worth)<br>
-            14315 John Doe Parkway<br>
-            Texas
+            TruPart Manufacturing, Inc<br>
+            4450 Dupont Ct.<br>
+            Suite A<br>
+            Ventura, California, 93003
           </div>
 
           <div class="subtitle-1 font-weight-light mb-0 mb-md-8">

@@ -5,8 +5,8 @@
   >
     <base-subheading
       class="mb-12"
-      subtitle="Blockchain made simple."
-      title="Your New Home"
+      subtitle="Expert Metal Fabrication, Made in the USA."
+      title="Industry Leading"
     />
 
     <v-row align="center">
@@ -16,8 +16,8 @@
       >
         <base-subheading
           :left="$vuetify.breakpoint.mdAndUp"
-          subtitle="We calculate the best gas price upon order purchase. Just click Send."
-          title="Premium Transactions"
+          subtitle="Our team has over 200 years of experience. Spanning so many skill sets and overlapping in many, you have several people watching out over your components who have spent their lives in this industry. Multifaceted veterans hand-selected, highly sought after, loyal to the standards or founder Karl Schlosser built into our foundation 46 years ago. Old school work ethic and practices, modern software and equipment."
+          title="200+ Years Experience"
         />
       </v-col>
 
@@ -36,8 +36,8 @@
       >
         <base-subheading
           :right="$vuetify.breakpoint.mdAndUp"
-          subtitle="Desktop, Laptop, or Mobile—CRYPTO Coin has you covered"
-          title="Responsive Dashboard"
+          subtitle="Our sheet metal team, metal fabricators, laser cutting ninjas, punch press techs, picky quality control, press break wizards, waterjet wonders, sensational shippers, kind, smart and funny front office will attend to your needs, make high quality, well thought out manufactured parts quickly!"
+          title="Your Ideas, From Scratch"
         />
       </v-col>
 

@@ -33,23 +33,67 @@
               class="font-weight-bold"
               :class="[$vuetify.breakpoint.smAndDown ? 'display-2 white--text' : 'display-4']"
             >
-              CRYPTO <span class="font-weight-light">Coin</span>
+              TruPart <span class="font-weight-light">Manufacturing</span>
             </h1>
 
             <div
               class="grey--text mb-md-12 mb-6"
               :class="[$vuetify.breakpoint.smAndDown ? 'headline text--lighten-1' : 'display-1']"
             >
-              Secure wallet transfers, <em>today</em>
+              The highest standard of manufacturing, <em>period.</em>
             </div>
-
-            <base-btn
-              height="64"
-              block
-              class="title"
+            <v-dialog
+              v-model="dialog"
+              width="600px"
             >
-              Sign Up Now
-            </base-btn>
+              <template v-slot:activator="{ on, attrs }">
+                <base-btn
+                  height="64"
+                  block
+                  class="title"
+                  v-bind="attrs"
+                  v-on="on"
+                >
+                  Get a Quote Now
+                </base-btn>
+                <!-- <v-btn
+                  color="primary"
+                  dark
+
+                >
+                  Open Dialog
+                </v-btn> -->
+              </template>
+              <v-card>
+                <v-card-title>
+                  <span class="headline">Fill out the form below to get a quote!</span>
+                </v-card-title>
+                <p style="text-align: center;">
+                  <iframe
+                    style="width: 600px; height: 1500px;"
+                    src="https://rfq.digital-quote.com/rfq/index.html?supplier_id=865591b2d73e47c191179bedc15b14a6"
+                    no-resize-detection
+                />
+                </p>
+                <v-card-actions>
+                  <v-spacer />
+                  <v-btn
+                    color="green darken-1"
+                    text
+                    @click="dialog = false"
+                  >
+                    Disagree
+                  </v-btn>
+                  <v-btn
+                    color="green darken-1"
+                    text
+                    @click="dialog = false"
+                  >
+                    Agree
+                  </v-btn>
+                </v-card-actions>
+              </v-card>
+            </v-dialog>
           </v-col>
         </v-slide-x-reverse-transition>
 
@@ -99,20 +143,21 @@
     name: 'HomeHero',
 
     data: () => ({
+      dialog: false,
       highlights: [
         {
           src: '1.png',
-          title: 'Smooth Sailing',
+          title: 'Design',
           text: 'A wallet crafted to reduce the steep learning curve of the blockchain.',
         },
         {
           src: '2.png',
-          title: 'Decentralized',
+          title: 'Prototype',
           text: 'We believe in the importance of a decentralized future, that’s why we want to bring the blockchain to the 99%.',
         },
         {
           src: '3.png',
-          title: 'Web3 Injection',
+          title: 'Fabrication and Production',
           text: 'Cutting edge tech, that makes interacting with the Ethereum blockchain seamless.',
         },
       ],

@@ -22,7 +22,7 @@
         </v-avatar>
 
         <span class="hidden-sm-and-down">
-          CRYPTO&nbsp;<span class="font-weight-light">Coin</span>
+          TruPart&nbsp;<span class="font-weight-light">Manufacturing</span>
         </span>
       </router-link>
     </v-toolbar-title>

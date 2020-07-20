@@ -7,8 +7,8 @@
   >
     <base-subheading
       class="mb-12"
-      subtitle="Get the latest information about CRYPTO Coin"
-      title="Stay Informed"
+      subtitle="Get statred on your quote today"
+      title="Get a Quote!"
     />
 
     <subscribe

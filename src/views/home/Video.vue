@@ -7,7 +7,7 @@
     <base-subheading
       class="mb-12"
       subtitle="Sit back and enjoy."
-      title="CRYPTO in 60 Seconds"
+      title="TruPart in 60 Seconds"
     />
 
     <base-card
