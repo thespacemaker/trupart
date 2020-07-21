@@ -73,7 +73,7 @@
       class="mr-3"
     >
       <span v-if="$vuetify.breakpoint.mdAndUp">
-        Download
+        Get a Quote
       </span>
 
       <v-icon
