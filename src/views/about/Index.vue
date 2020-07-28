@@ -206,19 +206,19 @@
       ],
       team: [
         {
-          name: 'Susan Crocket',
+          name: 'Mary Murillo',
           src: 'https://randomuser.me/api/portraits/women/54.jpg',
           pos: 'Founder & CEO',
           blurb: 'Cras risus ipsum faucibus ut nullam quis ante',
         },
         {
-          name: 'James Crocket',
+          name: 'Shane Prukop',
           src: 'https://randomuser.me/api/portraits/men/34.jpg',
           pos: 'Co-founder & CTO',
           blurb: 'Cras risus ipsum faucibus ut nullam',
         },
         {
-          name: 'Jason Zimmer',
+          name: 'Stephen Wall',
           src: 'https://randomuser.me/api/portraits/men/14.jpg',
           pos: 'Lead Developer',
           blurb: 'Cras risus ipsum faucibus ut nullam quis',

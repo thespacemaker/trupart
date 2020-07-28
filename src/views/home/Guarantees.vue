@@ -24,11 +24,17 @@
           color="primary"
           width="128"
         >
-          <v-img
+          <!-- <v-img
             :src="require(`@/assets/guarantees/1.png`)"
             height="74"
             width="74"
-          />
+          /> -->
+          <v-icon
+            size="80"
+            dark
+          >
+            thumb_up
+          </v-icon>
         </base-card>
 
         <h4 class="headline font-weight-bold">
@@ -52,11 +58,12 @@
           color="primary"
           width="128"
         >
-          <v-img
-            :src="require(`@/assets/guarantees/2.png`)"
-            height="74"
-            width="74"
-          />
+          <v-icon
+            size="80"
+            dark
+          >
+            track_changes
+          </v-icon>
         </base-card>
 
         <h4 class="headline font-weight-bold">
@@ -131,11 +138,12 @@
           color="primary"
           width="128"
         >
-          <v-img
-            :src="require(`@/assets/guarantees/4.png`)"
-            height="74"
-            width="74"
-          />
+          <v-icon
+            size="80"
+            dark
+          >
+            memory
+          </v-icon>
         </base-card>
 
         <h4 class="headline font-weight-bold">
@@ -158,11 +166,12 @@
           color="primary"
           width="128"
         >
-          <v-img
-            :src="require(`@/assets/guarantees/5.png`)"
-            height="74"
-            width="74"
-          />
+          <v-icon
+            size="80"
+            dark
+          >
+            local_airport
+          </v-icon>
         </base-card>
 
         <h4 class="headline font-weight-bold">

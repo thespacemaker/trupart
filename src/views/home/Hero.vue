@@ -73,7 +73,7 @@
                     style="width: 600px; height: 1500px;"
                     src="https://rfq.digital-quote.com/rfq/index.html?supplier_id=865591b2d73e47c191179bedc15b14a6"
                     no-resize-detection
-                />
+                  />
                 </p>
               </v-card>
             </v-dialog>
