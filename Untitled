@@ -1,0 +1,7 @@
+def product(x,y):
+    return x*y
+
+number1 = int(input("what is the first number you want to multiply?"))
+number2 = int(input("what is the second number you want to multiply?"))
+
+print(product(number1,number2))

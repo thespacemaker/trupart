@@ -24,11 +24,17 @@
           color="primary"
           width="128"
         >
-          <v-img
+          <!-- <v-img
             :src="require(`@/assets/guarantees/1.png`)"
             height="74"
             width="74"
-          />
+          /> -->
+          <v-icon
+            x-large
+            dark
+          >
+            home
+          </v-icon>
         </base-card>
 
         <h4 class="headline font-weight-bold">
