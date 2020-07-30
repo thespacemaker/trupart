@@ -46,7 +46,7 @@
       </v-icon>
     </v-btn>
 
-    <v-btn
+    <!-- <v-btn
       :dark="$vuetify.breakpoint.smAndDown"
       :icon="$vuetify.breakpoint.smAndDown"
       class="mr-3"
@@ -61,7 +61,7 @@
       <v-icon v-else>
         mdi-file
       </v-icon>
-    </v-btn>
+    </v-btn> -->
 
     <base-btn
       :color="$vuetify.breakpoint.mdAndUp ? 'primary' : 'white'"

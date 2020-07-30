@@ -3,7 +3,7 @@
     class="mx-auto"
     height="600"
     max-width="100%"
-    width="300"
+    width="500"
   >
     <v-img
       height="100%"

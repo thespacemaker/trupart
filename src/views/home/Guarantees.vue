@@ -195,11 +195,12 @@
           color="primary"
           width="128"
         >
-          <v-img
-            :src="require(`@/assets/guarantees/5.png`)"
-            height="74"
-            width="74"
-          />
+        <v-icon
+          size="80"
+          dark
+        >
+          vpn_lock
+        </v-icon>
         </base-card>
 
         <h4 class="headline font-weight-bold">
@@ -207,7 +208,7 @@
         </h4>
 
         <div class="title font-weight-light">
-          Worldwide data centers
+          Secure Shipping Worldwide
         </div>
       </v-col>
     </v-row>

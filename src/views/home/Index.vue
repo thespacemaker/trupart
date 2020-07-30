@@ -2,13 +2,13 @@
   <section id="home">
     <hero />
 
-    <v-video />
-
     <features />
 
     <stack v-if="$vuetify.breakpoint.smAndUp" />
 
     <guarantees />
+
+    <v-video />
 
     <market />
 
