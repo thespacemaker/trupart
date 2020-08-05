@@ -47,23 +47,23 @@
 
           <tr>
             <th>
-              Features
+              Services
             </th>
             <th>
-              CRYPTO Coin
+              TrupartMfg
             </th>
             <th>
-              Bitcoin
+              CNC Shop
             </th>
             <th>
-              Ethereum
+              Sheetmetal
             </th>
             <template v-if="$vuetify.breakpoint.mdAndUp">
               <th>
-                Litecoin
+                Punch Press House
               </th>
               <th>
-                Dash
+                Fabrication/Welding Shop
               </th>
             </template>
           </tr>
@@ -71,7 +71,7 @@
 
         <tbody>
           <tr>
-            <td>Wallet recovery via<br> seed phrase</td>
+            <td>CAD/CAM</td>
             <td><check /></td>
             <td><check /></td>
             <td><check /></td>
@@ -82,10 +82,10 @@
           </tr>
 
           <tr>
-            <td>Web3 connectivity</td>
+            <td>Enginerring Support</td>
             <td><check /></td>
             <td><check /></td>
-            <td><check /></td>
+            <td />
             <template v-if="$vuetify.breakpoint.mdAndUp">
               <td />
               <td />
@@ -93,7 +93,7 @@
           </tr>
 
           <tr>
-            <td>Credit card purchasing<br> of ETH</td>
+            <td>Expedited Quotes</td>
             <td><check /></td>
             <td><check /></td>
             <td />
@@ -104,7 +104,7 @@
           </tr>
 
           <tr>
-            <td>View and export<br> private keys from<br> within wallet</td>
+            <td>Consultations over Zoom and VR</td>
             <td><check /></td>
             <td><check /></td>
             <td />
