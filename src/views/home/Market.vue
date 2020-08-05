@@ -1,7 +1,7 @@
 <template>
   <v-container
     id="roadmap"
-    class="hidden-sm-and-down"
+    class="hidden-xs-and-down"
     tag="section"
     fluid
   >
@@ -21,7 +21,7 @@
             :stats="stats"
             color="#FA6F9E"
             dark
-            title="Blockchain Data"
+            title="Business stats"
             width="100%"
           />
         </v-col>
@@ -33,7 +33,7 @@
             :stats="stats2"
             color="secondary"
             dark
-            title="Price Statistics"
+            title="The Fight Against Covid"
             width="100%"
           />
         </v-col>
@@ -48,16 +48,16 @@
 
     data: () => ({
       stats: [
-        { title: '797,054,934', subtitle: 'Total Supply' },
-        { title: '2,945,066', subtitle: 'EQL Burnt' },
-        { title: '48,385', subtitle: 'Transactions' },
-        { title: '18', subtitle: 'Decimals' },
+        { title: '20,000,000+', subtitle: 'Parts Manufactured' },
+        { title: '3', subtitle: 'Generations Family Owned' },
+        { title: '47', subtitle: 'Years in Business' },
+        { title: '200+', subtitle: 'Years of Experience' },
       ],
       stats2: [
-        { title: '$0.0018', subtitle: 'USD Price' },
-        { title: '$582,457', subtitle: 'Market Cap' },
-        { title: '$546', subtitle: '24H Volume' },
-        { title: '6.27%', subtitle: '24H Change' },
+        { title: '2000', subtitle: 'Face Shields Produced' },
+        { title: '2000', subtitle: 'Face Shields Donated' },
+        { title: '100s', subtitle: 'Hours of time' },
+        { title: '7', subtitle: 'Open Source Contributions' },
       ],
     }),
   }

@@ -106,14 +106,10 @@
 
     data: () => ({
       socials: [
-        { icon: 'mdi-facebook-box', href: '#' },
-        { icon: 'mdi-twitter', href: '#' },
-        { icon: 'mdi-discord', href: '#' },
-        { icon: 'mdi-send', href: '#' },
-        { icon: 'mdi-reddit', href: '#' },
-        { icon: 'mdi-bitcoin', href: '#' },
-        { icon: 'mdi-youtube', href: '#' },
-        { icon: 'mdi-medium', href: '#' },
+        { icon: 'mdi-facebook', href: 'https://www.facebook.com/trupartmanufacturing' },
+        { icon: 'mdi-instagram', href: 'https://www.instagram.com/trupartmfg' },
+        { icon: 'mdi-mail', href: 'mailto:sales@trupartmfg.com' },
+        { icon: 'mdi-youtube', href: 'https://wwww.youtube.com/trupartmanufacturing' },
       ],
     }),
   }
