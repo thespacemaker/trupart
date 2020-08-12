@@ -149,7 +149,7 @@
           <tr />
         </tbody>
 
-        <tfoot class="hidden-sm-and-down">
+        <!-- <tfoot class="hidden-sm-and-down">
           <tr>
             <th class="headline font-weight-bold py-6">
               Market Cap.
@@ -184,7 +184,7 @@
               </base-btn>
             </td>
           </tr>
-        </tfoot>
+        </tfoot> -->
       </v-simple-table>
     </base-card>
   </v-container>

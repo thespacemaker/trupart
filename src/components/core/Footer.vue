@@ -60,12 +60,12 @@
           >
             About
           </router-link>
-          <a
+          <!-- <a
             href="#"
             class="title font-weight-light grey--text d-block"
           >
             White Paper
-          </a>
+          </a> -->
         </v-col>
 
         <v-col

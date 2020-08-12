@@ -46,22 +46,22 @@
       </v-icon>
     </v-btn>
 
-    <!-- <v-btn
+    <v-btn
       :dark="$vuetify.breakpoint.smAndDown"
       :icon="$vuetify.breakpoint.smAndDown"
       class="mr-3"
       text
-      to="/about"
+      to="/services"
       x-large
     >
       <span v-if="$vuetify.breakpoint.mdAndUp">
-        White Paper
+        Services
       </span>
 
       <v-icon v-else>
-        mdi-file
+        mdi-information
       </v-icon>
-    </v-btn> -->
+    </v-btn>
 
     <base-btn
       :color="$vuetify.breakpoint.mdAndUp ? 'primary' : 'white'"
