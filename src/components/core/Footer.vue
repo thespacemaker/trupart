@@ -56,6 +56,12 @@
           </div>
           <router-link
             class="title font-weight-light grey--text d-block mb-4"
+            to="/services"
+          >
+            Services
+          </router-link>
+          <router-link
+            class="title font-weight-light grey--text d-block mb-4"
             to="/about"
           >
             About

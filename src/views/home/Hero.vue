@@ -40,7 +40,7 @@
               class="grey--text mb-md-12 mb-6"
               :class="[$vuetify.breakpoint.smAndDown ? 'headline text--lighten-1' : 'display-1']"
             >
-              The highest standard of manufacturing, <em>period.</em>
+              Quality Manufacturing for over <em>67 years.</em>
             </div>
             <v-dialog
               v-model="dialog"

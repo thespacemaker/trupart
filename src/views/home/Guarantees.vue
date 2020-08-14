@@ -1,4 +1,4 @@
-<template>
+†<template>
   <v-container
     id="token"
     tag="section"
@@ -195,12 +195,12 @@
           color="primary"
           width="128"
         >
-        <v-icon
-          size="80"
-          dark
-        >
-          vpn_lock
-        </v-icon>
+          <v-icon
+            size="80"
+            dark
+          >
+            vpn_lock
+          </v-icon>
         </base-card>
 
         <h4 class="headline font-weight-bold">

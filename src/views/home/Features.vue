@@ -20,32 +20,48 @@
           title="200+ Years Experience"
         />
       </v-col>
-
-      <v-col>
-        <base-img-card :src="require('@/assets/features/2.jpg')" />
-      </v-col>
-    </v-row>
-
-    <v-row
-      align="center"
-      class="flex-row-reverse"
-    >
-      <v-col
-        cols="12"
-        md="6"
+      <v-lazy
+        v-model="isActive"
+        :options="{
+          threshold: .5
+        }"
+        min-height="200"
+        transition="fade-transition"
       >
-        <base-subheading
-          :right="$vuetify.breakpoint.mdAndUp"
-          subtitle="Our sheet metal team, metal fabricators, laser cutting ninjas, punch press techs, picky quality control, press break wizards, waterjet wonders, sensational shippers, kind, smart and funny front office will attend to your needs, make high quality, well thought out manufactured parts quickly!"
-          title="Your Ideas, From Scratch"
-        />
-      </v-col>
-
-      <v-col>
-        <base-img-card :src="require('@/assets/features/3.jpg')" />
-      </v-col>
+        <v-col>
+          <base-img-card :src="require('@/assets/features/2.jpg')" />
+        </v-col>
+      </v-lazy>
     </v-row>
 
+    <v-lazy
+      v-model="isActive"
+      :options="{
+        threshold: .5
+      }"
+      min-height="200"
+      transition="fade-transition"
+    >
+      <v-row
+        align="center"
+        class="flex-row-reverse"
+      >
+        <v-col
+          cols="12"
+          md="6"
+        >
+          <base-subheading
+            :right="$vuetify.breakpoint.mdAndUp"
+            subtitle="Our sheet metal team, metal fabricators, laser cutting ninjas, punch press techs, picky quality control, press break wizards, waterjet wonders, sensational shippers, kind, smart and funny front office will attend to your needs, make high quality, well thought out manufactured parts quickly!"
+            title="Your Ideas, From Scratch"
+          />
+        </v-col>
+
+        <v-col>
+          <base-img-card :src="require('@/assets/features/3.jpg?vuetify-preload')" />
+        </v-col>
+      </v-row>
+    </v-lazy>
     <v-row align="center">
       <v-col
         cols="12"
@@ -59,7 +75,7 @@
       </v-col>
 
       <v-col>
-        <base-img-card :src="require('@/assets/features/4.jpg')" />
+        <base-img-card :src="require('@/assets/features/4.jpg?vuetify-preload')" />
       </v-col>
     </v-row>
   </v-container>

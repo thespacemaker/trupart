@@ -114,7 +114,7 @@
             </template>
           </tr>
 
-          <tr>
+          <!-- <tr>
             <td>DAPP and DEX store</td>
             <td><check /></td>
             <td />
@@ -123,9 +123,9 @@
               <td />
               <td />
             </template>
-          </tr>
+          </tr> -->
 
-          <tr>
+          <!-- <tr>
             <td>Automatically update<br> new tokens to your<br> portfolio</td>
             <td><check /></td>
             <td />
@@ -134,9 +134,9 @@
               <td />
               <td><check /></td>
             </template>
-          </tr>
+          </tr> -->
 
-          <tr>
+          <!-- <tr>
             <td>Send all ERC-20 tokens<br> without the use of 3rd<br> party websites</td>
             <td><check /></td>
             <td />
@@ -146,7 +146,7 @@
               <td />
             </template>
           </tr>
-          <tr />
+          <tr /> -->
         </tbody>
 
         <!-- <tfoot class="hidden-sm-and-down">

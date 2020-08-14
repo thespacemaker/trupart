@@ -191,6 +191,16 @@
   export default {
     name: 'AboutIndex',
 
+    metaInfo: {
+      // title will be injected into parent titleTemplate
+      title: 'About Us',
+      meta: [{
+        vmid: 'description',
+        name: 'description',
+        content: 'An about page for trupart manufacturing',
+      }],
+    },
+
     data: () => ({
       stats: [
         { title: '797,054,934', subtitle: 'Total Supply' },
