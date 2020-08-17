@@ -1,4 +1,4 @@
-<template>
+†<template>
   <v-container
     id="token"
     tag="section"
@@ -6,8 +6,8 @@
   >
     <base-subheading
       class="mb-12"
-      subtitle="How CRYPTO Coin works for you"
-      title="Security Above ALL"
+      subtitle="What sets us apart"
+      title="TruPart"
     />
 
     <v-row
@@ -24,19 +24,25 @@
           color="primary"
           width="128"
         >
-          <v-img
+          <!-- <v-img
             :src="require(`@/assets/guarantees/1.png`)"
             height="74"
             width="74"
-          />
+          /> -->
+          <v-icon
+            size="80"
+            dark
+          >
+            thumb_up
+          </v-icon>
         </base-card>
 
         <h4 class="headline font-weight-bold">
-          Credit
+          ASAP Approval
         </h4>
 
         <div class="title font-weight-light">
-          Easy third party<br>Exchange
+          Expedited parts and quotes
         </div>
       </v-col>
 
@@ -52,19 +58,20 @@
           color="primary"
           width="128"
         >
-          <v-img
-            :src="require(`@/assets/guarantees/2.png`)"
-            height="74"
-            width="74"
-          />
+          <v-icon
+            size="80"
+            dark
+          >
+            track_changes
+          </v-icon>
         </base-card>
 
         <h4 class="headline font-weight-bold">
-          Protection
+          Track Your Parts
         </h4>
 
         <div class="title font-weight-light">
-          Cutting-edge security
+          Coming Soon...
         </div>
       </v-col>
 
@@ -90,7 +97,7 @@
         </h4>
 
         <div class="title font-weight-light">
-          Global verification network
+          Human verification for every part
         </div>
       </v-col>
 
@@ -115,7 +122,7 @@
         </base-card>
 
         <h4 class="headline font-weight-bold">
-          CRYPTO Coin
+          46 Years of Excellence
         </h4>
       </v-col>
 
@@ -131,19 +138,21 @@
           color="primary"
           width="128"
         >
-          <v-img
-            :src="require(`@/assets/guarantees/4.png`)"
-            height="74"
-            width="74"
-          />
+          <v-icon
+            size="80"
+            dark
+          >
+            memory
+          </v-icon>
         </base-card>
 
         <h4 class="headline font-weight-bold">
-          Private
+          Machine Learning
         </h4>
 
         <div class="title font-weight-light">
-          128 bit Secure Chat<br>Network
+          We use state of the art<br>
+          algorithms to check designs for flaws
         </div>
       </v-col>
 
@@ -157,19 +166,20 @@
           color="primary"
           width="128"
         >
-          <v-img
-            :src="require(`@/assets/guarantees/5.png`)"
-            height="74"
-            width="74"
-          />
+          <v-icon
+            size="80"
+            dark
+          >
+            local_airport
+          </v-icon>
         </base-card>
 
         <h4 class="headline font-weight-bold">
-          Monitored
+          Aircraft grade
         </h4>
 
         <div class="title font-weight-light">
-          99.7% Uptime Guaranteed
+          We produce parts for SpaceX, Lockheed, <br>Boeing, Blue Origin and more!
         </div>
       </v-col>
 
@@ -185,11 +195,12 @@
           color="primary"
           width="128"
         >
-          <v-img
-            :src="require(`@/assets/guarantees/5.png`)"
-            height="74"
-            width="74"
-          />
+          <v-icon
+            size="80"
+            dark
+          >
+            vpn_lock
+          </v-icon>
         </base-card>
 
         <h4 class="headline font-weight-bold">
@@ -197,7 +208,7 @@
         </h4>
 
         <div class="title font-weight-light">
-          Worldwide data centers
+          Secure Shipping Worldwide
         </div>
       </v-col>
     </v-row>

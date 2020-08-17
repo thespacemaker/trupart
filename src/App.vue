@@ -28,5 +28,11 @@
       CoreTopBlob: () => import('@/components/core/TopBlob'),
       CoreView: () => import('@/components/core/View'),
     },
+    metaInfo: {
+      // if no subcomponents specify a metaInfo.title, this title will be used
+      title: 'Trupart Manufacuring',
+      // all titles will be injected into this template
+      titleTemplate: '%s | 67 Years of Quality Manufacturing',
+    },
   }
 </script>

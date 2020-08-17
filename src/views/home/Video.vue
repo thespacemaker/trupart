@@ -7,7 +7,7 @@
     <base-subheading
       class="mb-12"
       subtitle="Sit back and enjoy."
-      title="CRYPTO in 60 Seconds"
+      title="TruPart in Motion"
     />
 
     <base-card
@@ -20,7 +20,7 @@
         allowfullscreen
         frameborder="0"
         height="100%"
-        src="https://www.youtube.com/embed/IWeCQkIJNkY"
+        src="https://www.youtube.com/embed/pV82LruAeNk"
         width="100%"
       />
     </base-card>

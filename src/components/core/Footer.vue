@@ -24,14 +24,14 @@
                 contain
               />
             </v-avatar>
-            CRYPTO Coin
+            TruPart Manufacturing
           </div>
 
           <div class="subtitle-1 font-weight-light mb-6 hidden-sm-and-down">
-            CRYPTO Coin is being developed by:<br>
-            CRYPTO Coin Affiliates LLC (Fort Worth)<br>
-            14315 John Doe Parkway<br>
-            Texas
+            TruPart Manufacturing, Inc<br>
+            4450 Dupont Ct.<br>
+            Suite A<br>
+            Ventura, California, 93003
           </div>
 
           <div class="subtitle-1 font-weight-light mb-0 mb-md-8">
@@ -56,16 +56,22 @@
           </div>
           <router-link
             class="title font-weight-light grey--text d-block mb-4"
+            to="/services"
+          >
+            Services
+          </router-link>
+          <router-link
+            class="title font-weight-light grey--text d-block mb-4"
             to="/about"
           >
             About
           </router-link>
-          <a
+          <!-- <a
             href="#"
             class="title font-weight-light grey--text d-block"
           >
             White Paper
-          </a>
+          </a> -->
         </v-col>
 
         <v-col
@@ -106,14 +112,10 @@
 
     data: () => ({
       socials: [
-        { icon: 'mdi-facebook-box', href: '#' },
-        { icon: 'mdi-twitter', href: '#' },
-        { icon: 'mdi-discord', href: '#' },
-        { icon: 'mdi-send', href: '#' },
-        { icon: 'mdi-reddit', href: '#' },
-        { icon: 'mdi-bitcoin', href: '#' },
-        { icon: 'mdi-youtube', href: '#' },
-        { icon: 'mdi-medium', href: '#' },
+        { icon: 'mdi-facebook', href: 'https://www.facebook.com/trupartmanufacturing' },
+        { icon: 'mdi-instagram', href: 'https://www.instagram.com/trupartmfg' },
+        { icon: 'mdi-mail', href: 'mailto:sales@trupartmfg.com' },
+        { icon: 'mdi-youtube', href: 'https://wwww.youtube.com/trupartmanufacturing' },
       ],
     }),
   }

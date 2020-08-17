@@ -2,13 +2,13 @@
   <section id="home">
     <hero />
 
-    <v-video />
-
     <features />
 
     <stack v-if="$vuetify.breakpoint.smAndUp" />
 
     <guarantees />
+
+    <v-video />
 
     <market />
 
@@ -28,6 +28,18 @@
       Stack: () => import('./Stack'),
       Guarantees: () => import('./Guarantees'),
       StayInformed: () => import('./StayInformed'),
+    },
+
+    metaInfo: {
+      title: 'Trupart Manufacturing',
+      // override the parent template and just use the above title only
+      titleTemplate: null,
+      meta: [{
+        vmid: 'description',
+        name: 'description',
+        content: '& I will not be <sanitized>',
+      }],
+      __dangerouslyDisableSanitizers: ['meta'],
     },
   }
 </script>

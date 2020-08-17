@@ -22,7 +22,7 @@
         </v-avatar>
 
         <span class="hidden-sm-and-down">
-          CRYPTO&nbsp;<span class="font-weight-light">Coin</span>
+          TruPart&nbsp;<span class="font-weight-light">Manufacturing</span>
         </span>
       </router-link>
     </v-toolbar-title>
@@ -51,15 +51,15 @@
       :icon="$vuetify.breakpoint.smAndDown"
       class="mr-3"
       text
-      to="/about"
+      to="/services"
       x-large
     >
       <span v-if="$vuetify.breakpoint.mdAndUp">
-        White Paper
+        Services
       </span>
 
       <v-icon v-else>
-        mdi-file
+        mdi-information
       </v-icon>
     </v-btn>
 
@@ -73,7 +73,7 @@
       class="mr-3"
     >
       <span v-if="$vuetify.breakpoint.mdAndUp">
-        Download
+        Get a Quote
       </span>
 
       <v-icon

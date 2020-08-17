@@ -1,3 +1,4 @@
+import 'material-design-icons-iconfont/dist/material-design-icons.css' // Ensure you are using css-loader
 import Vue from 'vue'
 import Vuetify, { VAvatar, VIcon } from 'vuetify/lib'
 
@@ -9,12 +10,15 @@ Vue.use(Vuetify, {
 })
 
 export default new Vuetify({
-  theme: {
+  icons: {
+   iconfont: 'mdi',
+ },
+ theme: {
     themes: {
       light: {
         primary: '#3f51b5',
         secondary: '#9fa8da',
-        accent: '#4FEEBA',
+        accent: '#4fEfBA',
       },
     },
   },

@@ -47,23 +47,23 @@
 
           <tr>
             <th>
-              Features
+              Services
             </th>
             <th>
-              CRYPTO Coin
+              TrupartMfg
             </th>
             <th>
-              Bitcoin
+              CNC Shop
             </th>
             <th>
-              Ethereum
+              Sheetmetal
             </th>
             <template v-if="$vuetify.breakpoint.mdAndUp">
               <th>
-                Litecoin
+                Punch Press House
               </th>
               <th>
-                Dash
+                Fabrication/Welding Shop
               </th>
             </template>
           </tr>
@@ -71,7 +71,7 @@
 
         <tbody>
           <tr>
-            <td>Wallet recovery via<br> seed phrase</td>
+            <td>CAD/CAM</td>
             <td><check /></td>
             <td><check /></td>
             <td><check /></td>
@@ -82,29 +82,7 @@
           </tr>
 
           <tr>
-            <td>Web3 connectivity</td>
-            <td><check /></td>
-            <td><check /></td>
-            <td><check /></td>
-            <template v-if="$vuetify.breakpoint.mdAndUp">
-              <td />
-              <td />
-            </template>
-          </tr>
-
-          <tr>
-            <td>Credit card purchasing<br> of ETH</td>
-            <td><check /></td>
-            <td><check /></td>
-            <td />
-            <template v-if="$vuetify.breakpoint.mdAndUp">
-              <td><check /></td>
-              <td><check /></td>
-            </template>
-          </tr>
-
-          <tr>
-            <td>View and export<br> private keys from<br> within wallet</td>
+            <td>Enginerring Support</td>
             <td><check /></td>
             <td><check /></td>
             <td />
@@ -115,6 +93,28 @@
           </tr>
 
           <tr>
+            <td>Expedited Quotes</td>
+            <td><check /></td>
+            <td><check /></td>
+            <td />
+            <template v-if="$vuetify.breakpoint.mdAndUp">
+              <td><check /></td>
+              <td><check /></td>
+            </template>
+          </tr>
+
+          <tr>
+            <td>Consultations over Zoom and VR</td>
+            <td><check /></td>
+            <td><check /></td>
+            <td />
+            <template v-if="$vuetify.breakpoint.mdAndUp">
+              <td />
+              <td />
+            </template>
+          </tr>
+
+          <!-- <tr>
             <td>DAPP and DEX store</td>
             <td><check /></td>
             <td />
@@ -123,9 +123,9 @@
               <td />
               <td />
             </template>
-          </tr>
+          </tr> -->
 
-          <tr>
+          <!-- <tr>
             <td>Automatically update<br> new tokens to your<br> portfolio</td>
             <td><check /></td>
             <td />
@@ -134,9 +134,9 @@
               <td />
               <td><check /></td>
             </template>
-          </tr>
+          </tr> -->
 
-          <tr>
+          <!-- <tr>
             <td>Send all ERC-20 tokens<br> without the use of 3rd<br> party websites</td>
             <td><check /></td>
             <td />
@@ -146,10 +146,10 @@
               <td />
             </template>
           </tr>
-          <tr />
+          <tr /> -->
         </tbody>
 
-        <tfoot class="hidden-sm-and-down">
+        <!-- <tfoot class="hidden-sm-and-down">
           <tr>
             <th class="headline font-weight-bold py-6">
               Market Cap.
@@ -184,7 +184,7 @@
               </base-btn>
             </td>
           </tr>
-        </tfoot>
+        </tfoot> -->
       </v-simple-table>
     </base-card>
   </v-container>
