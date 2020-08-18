@@ -4,12 +4,14 @@ const ImageminPlugin = require('imagemin-webpack-plugin').default
 var imageminMozjpeg = require('imagemin-mozjpeg')
 const CompressionPlugin = require('compression-webpack-plugin');
 const { VuetifyLoaderPlugin } = require('vuetify-loader')
+// const PreloadWebpackPlugin = require('preload-webpack-plugin');
 
 module.exports = {
   chainWebpack(config) {
     config.plugins.delete('prefetch')
 
     // and this line
+    // config.plugin('PreloadWebpackPlugin').use(PreloadWebpackPlugin)
     config.plugin('CompressionPlugin').use(CompressionPlugin)
     config.plugin('VuetifyLoaderPlugin').tap(args => [{
       match (originalTag, { kebabTag, camelTag, path, component }) {

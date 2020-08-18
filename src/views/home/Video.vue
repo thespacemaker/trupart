@@ -22,6 +22,7 @@
         height="100%"
         src="https://www.youtube.com/embed/pV82LruAeNk"
         width="100%"
+        title="Youtube video of trupart manufacturing"
       />
     </base-card>
   </v-container>

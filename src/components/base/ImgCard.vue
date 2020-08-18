@@ -8,7 +8,20 @@
     <v-img
       height="100%"
       :src="src"
-    />
+    >
+      <template v-slot:placeholder>
+        <v-row
+          class="fill-height ma-0"
+          align="center"
+          justify="center"
+        >
+          <v-progress-circular
+            indeterminate
+            color="grey lighten-5"
+          />
+        </v-row>
+      </template>
+    </v-img>
   </base-card>
 </template>
 

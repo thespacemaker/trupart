@@ -131,17 +131,17 @@
         {
           src: '1.png',
           title: 'Design',
-          text: 'A wallet crafted to reduce the steep learning curve of the blockchain.',
+          text: 'Need help with product design? Trupart has skilled engineers on site that can help you with any of your design woes.',
         },
         {
           src: '2.png',
           title: 'Prototype',
-          text: 'We believe in the importance of a decentralized future, that’s why we want to bring the blockchain to the 99%.',
+          text: 'With 3D printing and rapid prototyping capabilities we can create custom tooling and specialized manufacturing processes to rapidly build your prototypes',
         },
         {
           src: '3.png',
           title: 'Fabrication and Production',
-          text: 'Cutting edge tech, that makes interacting with the Ethereum blockchain seamless.',
+          text: 'We have manufactured over 20,000,000 parts. Trupart can handle your manufacturing and production needs no matter the scale!',
         },
       ],
     }),

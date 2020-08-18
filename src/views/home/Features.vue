@@ -28,9 +28,9 @@
         min-height="200"
         transition="fade-transition"
       >
-        <v-col>
-          <base-img-card :src="require('@/assets/features/2.jpg')" />
-        </v-col>
+      <v-col>
+        <base-img-card :src="require('@/assets/features/2.jpg')" />
+      </v-col>
       </v-lazy>
     </v-row>
 
@@ -42,25 +42,25 @@
       min-height="200"
       transition="fade-transition"
     >
-      <v-row
-        align="center"
-        class="flex-row-reverse"
+    <v-row
+      align="center"
+      class="flex-row-reverse"
+    >
+      <v-col
+        cols="12"
+        md="6"
       >
-        <v-col
-          cols="12"
-          md="6"
-        >
-          <base-subheading
-            :right="$vuetify.breakpoint.mdAndUp"
-            subtitle="Our sheet metal team, metal fabricators, laser cutting ninjas, punch press techs, picky quality control, press break wizards, waterjet wonders, sensational shippers, kind, smart and funny front office will attend to your needs, make high quality, well thought out manufactured parts quickly!"
-            title="Your Ideas, From Scratch"
-          />
-        </v-col>
+        <base-subheading
+          :right="$vuetify.breakpoint.mdAndUp"
+          subtitle="Our sheet metal team, metal fabricators, laser cutting ninjas, punch press techs, picky quality control, press break wizards, waterjet wonders, sensational shippers, kind, smart and funny front office will attend to your needs, make high quality, well thought out manufactured parts quickly!"
+          title="Your Ideas, From Scratch"
+        />
+      </v-col>
 
-        <v-col>
-          <base-img-card :src="require('@/assets/features/3.jpg?vuetify-preload')" />
-        </v-col>
-      </v-row>
+      <v-col>
+        <base-img-card :src="require('@/assets/features/3.jpg?vuetify-preload')" />
+      </v-col>
+    </v-row>
     </v-lazy>
     <v-row align="center">
       <v-col
@@ -69,7 +69,7 @@
       >
         <base-subheading
           :left="$vuetify.breakpoint.mdAndUp"
-          subtitle="Anytime, anywhere—The power of CRYPTO is at your fingertips."
+          subtitle="From aluminum, to steel, to polymers and plastics, we can bring your creation to life today!"
           title="Complete Control"
         />
       </v-col>

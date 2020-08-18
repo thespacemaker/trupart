@@ -4,6 +4,7 @@
     class="hidden-sm-and-down"
     height="500"
     style="position: absolute; top: 425vh; right: 0;"
+    alt="Background Texture"
   >
 </template>
 

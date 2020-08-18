@@ -1,9 +1,9 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Home from '@/views/home/Index.vue'
-import About from '@/views/about/Index.vue'
-import Services from '@/views/services/Index.vue'
 import Meta from 'vue-meta'
+const Home = () => import('./views/home/Index.vue')
+const About = () => import('./views/about/Index.vue')
+const Services = () => import('./views/services/Index.vue')
 
 Vue.use(Router)
 Vue.use(Meta)
