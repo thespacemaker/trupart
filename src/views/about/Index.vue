@@ -8,7 +8,6 @@
       tag="h1"
       title="Our Mission Statement"
     />
-
     <v-row
       class="mb-12"
       justify="center"
@@ -19,19 +18,7 @@
         class="headline font-weight-light"
       >
         <p>
-          Etiam ut purus mattis mauris sodales aliquam. Aenean ut eros et nisl sagittis vestibulum. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Phasellus a est. Ut non enim eleifend felis pretium feugiat.
-        </p>
-
-        <p>
-          Etiam ut purus mattis mauris sodales aliquam. Aenean ut eros et nisl sagittis vestibulum. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Phasellus a est. Ut non enim eleifend felis pretium feugiat.
-        </p>
-
-        <p>
-          Etiam ut purus mattis mauris sodales aliquam. Aenean ut eros et nisl sagittis vestibulum. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Phasellus a est. Ut non enim eleifend felis pretium feugiat.
-        </p>
-
-        <p>
-          Etiam ut purus mattis mauris sodales aliquam. Aenean ut eros et nisl sagittis vestibulum. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Phasellus a est. Ut non enim eleifend felis pretium feugiat.
+          Our team has over 200 years of experience. Spanning so many skill sets and overlapping in many, you have several people watching out over your components who have spent their lives in this industry. Multifaceted veterans hand-selected, highly sought after, loyal to the standards or founder Karl Schlosser built into our foundation 46 years ago. Old school work ethic and practices, modern software and equipment.
         </p>
       </v-col>
     </v-row>
@@ -216,46 +203,52 @@
       ],
       team: [
         {
-          name: 'Mary Murillo',
-          src: 'https://randomuser.me/api/portraits/women/54.jpg',
+          name: 'Shane Prukop',
+          src: '/Users/shaneprukop/Dev/trupart/src/assets/team',
           pos: 'Founder & CEO',
-          blurb: 'Cras risus ipsum faucibus ut nullam quis ante',
+          blurb: '3rd generation. Push, Pull, whatever it takes to Support our World Class Crew, 20+ years in the Industry',
         },
         {
-          name: 'Shane Prukop',
-          src: 'https://randomuser.me/api/portraits/men/34.jpg',
-          pos: 'Co-founder & CTO',
-          blurb: 'Cras risus ipsum faucibus ut nullam',
+          name: 'Ingrid Boehm',
+          src: '/Users/shaneprukop/Dev/trupart/src/assets/team',
+          pos: '40 Years in business management,maintains foundational business practice.',
+          blurb: '',
         },
         {
           name: 'Stephen Wall',
           src: 'https://randomuser.me/api/portraits/men/14.jpg',
-          pos: 'Lead Developer',
-          blurb: 'Cras risus ipsum faucibus ut nullam quis',
+          pos: 'Shop Foreman',
+          blurb: 'Leveraging 40+ years in manufacturing,developes processs to ensure quality, safety and speed. ',
         },
         {
-          name: 'Ashley Lively',
+          name: 'Mary Murillo',
           src: 'https://randomuser.me/api/portraits/women/27.jpg',
-          pos: 'Social Media Liason',
-          blurb: 'Cras risus ipsum faucibus ut nullam quis ante, nullam quis ante',
+          pos: 'Office Manager',
+          blurb: 'Over 40 Years Mary has been the foundation to every job, knowing every process ensuring parts from the bigging mmet spec.',
         },
         {
-          name: 'Jake Grot',
+          name: 'David Cisneros',
           src: 'https://randomuser.me/api/portraits/men/27.jpg',
-          pos: 'Community Manager',
-          blurb: 'Cras risus ipsum faucibus ut nullam quis ante, nullam quis ante',
+          pos: 'Quality Control',
+          blurb: 'Starting on the Waterjet, David has worked his way up making quality parts, and now inspects them. ',
         },
         {
-          name: 'Stacey Wagner',
+          name: 'Ozwaldo Topete',
           src: 'https://randomuser.me/api/portraits/women/6.jpg',
-          pos: 'Project Manager',
-          blurb: 'Cras risus ipsum faucibus ut nullam quis ante',
+          pos: 'Blanking Technician',
+          blurb: 'Master of mamny machines, know by customers as laser ninja sword for his relentless persuit for edge quality and job batching.',
         },
         {
-          name: 'Jason Anderson',
+          name: 'Miguel Monroy',
           src: 'https://randomuser.me/api/portraits/men/41.jpg',
           pos: 'Designer',
-          blurb: 'Cras risus ipsum faucibus ut nullam quis ante',
+          blurb: 'A true legend in manufacturing, 25 years plus of sheet metal, he utilizes the latest in tech to make bends, that shouldnt have been birthed.',
+        },
+        {
+          name: 'Fabian Martinez-Mireles ',
+          src: 'https://randomuser.me/api/portraits/men/41.jpg',
+          pos: 'Expedite',
+          blurb: 'Thorough, detailed, consistant,accurate, all of the quaolities sought after, with none of the bad habits. A future in manufactuing.',
         },
       ],
     }),
