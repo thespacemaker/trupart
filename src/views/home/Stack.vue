@@ -210,10 +210,10 @@
     data: () => ({
       logos: [
         require('@/assets/logo-dark.png'),
-        require('@/assets/competitors/bitcoin.png'),
-        require('@/assets/competitors/ethereum.png'),
-        require('@/assets/competitors/litecoin.png'),
-        require('@/assets/competitors/dash.png'),
+        require('@/assets/competitors/cnc.png'),
+        require('@/assets/competitors/sheet.jpg'),
+        require('@/assets/competitors/pressbrake.png'),
+        require('@/assets/competitors/welding.png'),
       ],
     }),
   }

@@ -5,7 +5,6 @@
       class="hidden-sm-and-down"
       width="100%"
     >
-
     <v-footer
       class="grey--text transparent px-0 px-md-6 text-center text-md-left"
       height="auto"
@@ -92,6 +91,8 @@
                 :small="$vuetify.breakpoint.smAndDown"
                 color="white"
                 fab
+                target="_blank"
+                :href="social.href"
               >
                 <v-icon
                   color="primary"
@@ -115,7 +116,7 @@
         { icon: 'mdi-facebook', href: 'https://www.facebook.com/trupartmanufacturing' },
         { icon: 'mdi-instagram', href: 'https://www.instagram.com/trupartmfg' },
         { icon: 'mdi-mail', href: 'mailto:sales@trupartmfg.com' },
-        { icon: 'mdi-youtube', href: 'https://wwww.youtube.com/trupartmanufacturing' },
+        { icon: 'mdi-youtube', href: 'https://www.youtube.com/channel/UCJ6tBVI7DPOHLMwEziPVdmw ' },
       ],
     }),
   }
