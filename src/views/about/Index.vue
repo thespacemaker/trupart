@@ -8,7 +8,6 @@
       tag="h1"
       title="Our Mission Statement"
     />
-
     <v-row
       class="mb-12"
       justify="center"
@@ -19,19 +18,7 @@
         class="headline font-weight-light"
       >
         <p>
-          Etiam ut purus mattis mauris sodales aliquam. Aenean ut eros et nisl sagittis vestibulum. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Phasellus a est. Ut non enim eleifend felis pretium feugiat.
-        </p>
-
-        <p>
-          Etiam ut purus mattis mauris sodales aliquam. Aenean ut eros et nisl sagittis vestibulum. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Phasellus a est. Ut non enim eleifend felis pretium feugiat.
-        </p>
-
-        <p>
-          Etiam ut purus mattis mauris sodales aliquam. Aenean ut eros et nisl sagittis vestibulum. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Phasellus a est. Ut non enim eleifend felis pretium feugiat.
-        </p>
-
-        <p>
-          Etiam ut purus mattis mauris sodales aliquam. Aenean ut eros et nisl sagittis vestibulum. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Phasellus a est. Ut non enim eleifend felis pretium feugiat.
+          Our team has over 200 years of experience. Spanning so many skill sets and overlapping in many, you have several people watching out over your components who have spent their lives in this industry. Multifaceted veterans hand-selected, highly sought after, loyal to the standards or founder Karl Schlosser built into our foundation 46 years ago. Old school work ethic and practices, modern software and equipment.
         </p>
       </v-col>
     </v-row>
@@ -56,7 +43,22 @@
           class="mb-4"
           size="140"
         >
-          <v-img :src="member.src" />
+          <v-img
+            :src="require(`@/assets/team/${member.src}?vuetify-preload`)"
+          >
+            <template v-slot:placeholder>
+              <v-row
+                class="fill-height ma-0"
+                align="center"
+                justify="center"
+              >
+                <v-progress-circular
+                  indeterminate
+                  color="grey lighten-5"
+                />
+              </v-row>
+            </template>
+          </v-img>
         </v-avatar>
 
         <h3
@@ -97,7 +99,22 @@
           class="mb-4"
           size="140"
         >
-          <v-img :src="member.src" />
+          <v-img
+            :src="require(`@/assets/team/${member.src}`)"
+          >
+            <template v-slot:placeholder>
+              <v-row
+                class="fill-height ma-0"
+                align="center"
+                justify="center"
+              >
+                <v-progress-circular
+                  indeterminate
+                  color="grey lighten-5"
+                />
+              </v-row>
+            </template>
+          </v-img>
         </v-avatar>
 
         <h3
@@ -135,7 +152,22 @@
           class="mb-4"
           size="140"
         >
-          <v-img :src="member.src" />
+          <v-img
+            :src="require(`@/assets/team/${member.src}?vuetify-preload`)"
+          >
+            <template v-slot:placeholder>
+              <v-row
+                class="fill-height ma-0"
+                align="center"
+                justify="center"
+              >
+                <v-progress-circular
+                  indeterminate
+                  color="grey lighten-5"
+                />
+              </v-row>
+            </template>
+          </v-img>
         </v-avatar>
 
         <h3
@@ -203,59 +235,65 @@
 
     data: () => ({
       stats: [
-        { title: '797,054,934', subtitle: 'Total Supply' },
-        { title: '2,945,066', subtitle: 'EQL Burnt' },
-        { title: '48,385', subtitle: 'Transactions' },
-        { title: '18', subtitle: 'Decimals' },
+        { title: '20,000,000+', subtitle: 'Parts Manufactured' },
+        { title: '3', subtitle: 'Generations Family Owned' },
+        { title: '47', subtitle: 'Years in Business' },
+        { title: '200+', subtitle: 'Years of Experience' },
       ],
       stats2: [
-        { title: '$0.0018', subtitle: 'USD Price' },
-        { title: '$582,457', subtitle: 'Market Cap' },
-        { title: '$546', subtitle: '24H Volume' },
-        { title: '6.27%', subtitle: '24H Change' },
+        { title: '2000', subtitle: 'Face Shields Produced' },
+        { title: '2000', subtitle: 'Face Shields Donated' },
+        { title: '100s', subtitle: 'Hours of time' },
+        { title: '7', subtitle: 'Open Source Contributions' },
       ],
       team: [
         {
-          name: 'Mary Murillo',
-          src: 'https://randomuser.me/api/portraits/women/54.jpg',
-          pos: 'Founder & CEO',
-          blurb: 'Cras risus ipsum faucibus ut nullam quis ante',
+          name: 'Ingrid Boehm',
+          src: 'ingrid.png',
+          pos: 'Business Manager',
+          blurb: '40 Years in business management, maintains foundational business practice.',
         },
         {
           name: 'Shane Prukop',
-          src: 'https://randomuser.me/api/portraits/men/34.jpg',
-          pos: 'Co-founder & CTO',
-          blurb: 'Cras risus ipsum faucibus ut nullam',
+          src: 'workavatar.jpg',
+          pos: 'Founder & CEO',
+          blurb: '3rd generation. Push, Pull, whatever it takes to Support our World Class Crew, 20+ years in the Industry',
         },
         {
           name: 'Stephen Wall',
-          src: 'https://randomuser.me/api/portraits/men/14.jpg',
-          pos: 'Lead Developer',
-          blurb: 'Cras risus ipsum faucibus ut nullam quis',
+          src: 'steve.png',
+          pos: 'Shop Foreman',
+          blurb: 'Leveraging 40+ years in manufacturing,developes processs to ensure quality, safety and speed. ',
         },
         {
-          name: 'Ashley Lively',
-          src: 'https://randomuser.me/api/portraits/women/27.jpg',
-          pos: 'Social Media Liason',
-          blurb: 'Cras risus ipsum faucibus ut nullam quis ante, nullam quis ante',
+          name: 'Mary Murillo',
+          src: 'mary.png',
+          pos: 'Office Manager',
+          blurb: 'Over 40 Years Mary has been the foundation to every job, knowing every process ensuring parts from the bigging mmet spec.',
         },
         {
-          name: 'Jake Grot',
-          src: 'https://randomuser.me/api/portraits/men/27.jpg',
-          pos: 'Community Manager',
-          blurb: 'Cras risus ipsum faucibus ut nullam quis ante, nullam quis ante',
+          name: 'David Cisneros',
+          src: 'david.png',
+          pos: 'Quality Control',
+          blurb: 'Starting on the Waterjet, David has worked his way up making quality parts, and now inspects them. ',
         },
         {
-          name: 'Stacey Wagner',
-          src: 'https://randomuser.me/api/portraits/women/6.jpg',
-          pos: 'Project Manager',
-          blurb: 'Cras risus ipsum faucibus ut nullam quis ante',
+          name: 'Ozwaldo Topete',
+          src: 'ozzy.png',
+          pos: 'Blanking Technician',
+          blurb: 'Master of mamny machines, know by customers as laser ninja sword for his relentless persuit for edge quality and job batching.',
         },
         {
-          name: 'Jason Anderson',
-          src: 'https://randomuser.me/api/portraits/men/41.jpg',
+          name: 'Miguel Monroy',
+          src: 'miguel.png',
           pos: 'Designer',
-          blurb: 'Cras risus ipsum faucibus ut nullam quis ante',
+          blurb: 'A true legend in manufacturing, 25 years plus of sheet metal, he utilizes the latest in tech to make bends, that shouldnt have been birthed.',
+        },
+        {
+          name: 'Fabian Martinez-Mireles ',
+          src: 'fabian.png',
+          pos: 'Expedite',
+          blurb: 'Thorough, detailed, consistant,accurate, all of the quaolities sought after, with none of the bad habits. A future in manufactuing.',
         },
       ],
     }),
