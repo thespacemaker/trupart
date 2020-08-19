@@ -43,7 +43,22 @@
           class="mb-4"
           size="140"
         >
-          <v-img :src="member.src" />
+        <v-img
+          :src="require(`@/assets/team/${member.src}?vuetify-preload`)"
+        >
+          <template v-slot:placeholder>
+            <v-row
+              class="fill-height ma-0"
+              align="center"
+              justify="center"
+            >
+              <v-progress-circular
+                indeterminate
+                color="grey lighten-5"
+              />
+            </v-row>
+          </template>
+        </v-img>
         </v-avatar>
 
         <h3
@@ -84,7 +99,22 @@
           class="mb-4"
           size="140"
         >
-          <v-img :src="member.src" />
+        <v-img
+          :src="require(`@/assets/team/${member.src}`)"
+        >
+          <template v-slot:placeholder>
+            <v-row
+              class="fill-height ma-0"
+              align="center"
+              justify="center"
+            >
+              <v-progress-circular
+                indeterminate
+                color="grey lighten-5"
+              />
+            </v-row>
+          </template>
+        </v-img>
         </v-avatar>
 
         <h3
@@ -122,7 +152,22 @@
           class="mb-4"
           size="140"
         >
-          <v-img :src="member.src" />
+        <v-img
+          :src="require(`@/assets/team/${member.src}?vuetify-preload`)"
+        >
+          <template v-slot:placeholder>
+            <v-row
+              class="fill-height ma-0"
+              align="center"
+              justify="center"
+            >
+              <v-progress-circular
+                indeterminate
+                color="grey lighten-5"
+              />
+            </v-row>
+          </template>
+        </v-img>
         </v-avatar>
 
         <h3
@@ -204,49 +249,49 @@
       team: [
         {
           name: 'Shane Prukop',
-          src: '/Users/shaneprukop/Dev/trupart/src/assets/team',
+          src: 'workavatar.jpg',
           pos: 'Founder & CEO',
           blurb: '3rd generation. Push, Pull, whatever it takes to Support our World Class Crew, 20+ years in the Industry',
         },
         {
           name: 'Ingrid Boehm',
-          src: '/Users/shaneprukop/Dev/trupart/src/assets/team',
+          src: 'ingrid.png',
           pos: '40 Years in business management,maintains foundational business practice.',
           blurb: '',
         },
         {
           name: 'Stephen Wall',
-          src: 'https://randomuser.me/api/portraits/men/14.jpg',
+          src: 'ingrid.png',
           pos: 'Shop Foreman',
           blurb: 'Leveraging 40+ years in manufacturing,developes processs to ensure quality, safety and speed. ',
         },
         {
           name: 'Mary Murillo',
-          src: 'https://randomuser.me/api/portraits/women/27.jpg',
+          src: 'steve.png',
           pos: 'Office Manager',
           blurb: 'Over 40 Years Mary has been the foundation to every job, knowing every process ensuring parts from the bigging mmet spec.',
         },
         {
           name: 'David Cisneros',
-          src: 'https://randomuser.me/api/portraits/men/27.jpg',
+          src: 'steve.png',
           pos: 'Quality Control',
           blurb: 'Starting on the Waterjet, David has worked his way up making quality parts, and now inspects them. ',
         },
         {
           name: 'Ozwaldo Topete',
-          src: 'https://randomuser.me/api/portraits/women/6.jpg',
+          src: 'ingrid.png',
           pos: 'Blanking Technician',
           blurb: 'Master of mamny machines, know by customers as laser ninja sword for his relentless persuit for edge quality and job batching.',
         },
         {
           name: 'Miguel Monroy',
-          src: 'https://randomuser.me/api/portraits/men/41.jpg',
+          src: 'ingrid.png',
           pos: 'Designer',
           blurb: 'A true legend in manufacturing, 25 years plus of sheet metal, he utilizes the latest in tech to make bends, that shouldnt have been birthed.',
         },
         {
           name: 'Fabian Martinez-Mireles ',
-          src: 'https://randomuser.me/api/portraits/men/41.jpg',
+          src: 'steve.png',
           pos: 'Expedite',
           blurb: 'Thorough, detailed, consistant,accurate, all of the quaolities sought after, with none of the bad habits. A future in manufactuing.',
         },
