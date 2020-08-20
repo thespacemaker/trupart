@@ -1,4 +1,4 @@
-†<template>
+<template>
   <v-container
     id="token"
     tag="section"

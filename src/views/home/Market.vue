@@ -48,7 +48,7 @@
 
     data: () => ({
       stats: [
-        { title: '20,000,000+', subtitle: 'Parts Manufactured' },
+        { title: '2 Million+', subtitle: 'Parts Manufactured' },
         { title: '3', subtitle: 'Generations Family Owned' },
         { title: '47', subtitle: 'Years in Business' },
         { title: '200+', subtitle: 'Years of Experience' },

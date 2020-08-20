@@ -40,10 +40,6 @@
       <span v-if="$vuetify.breakpoint.mdAndUp">
         About
       </span>
-
-      <v-icon v-else>
-        mdi-information
-      </v-icon>
     </v-btn>
 
     <v-btn
@@ -57,38 +53,71 @@
       <span v-if="$vuetify.breakpoint.mdAndUp">
         Services
       </span>
-
-      <v-icon v-else>
-        mdi-information
-      </v-icon>
     </v-btn>
-
-    <base-btn
-      :color="$vuetify.breakpoint.mdAndUp ? 'primary' : 'white'"
-      :dark="$vuetify.breakpoint.smAndDown"
-      :fab="$vuetify.breakpoint.smAndDown"
-      :min-height="$vuetify.breakpoint.mdAndUp ? 64 : undefined"
-      :min-width="$vuetify.breakpoint.mdAndUp ? 175 : undefined"
-      :x-large="$vuetify.breakpoint.mdAndUp"
-      class="mr-3"
+    <v-dialog
+      v-model="dialog"
+      width="600px"
     >
-      <span v-if="$vuetify.breakpoint.mdAndUp">
-        Get a Quote
-      </span>
-
-      <v-icon
-        v-else
-        color="primary"
-      >
-        mdi-cloud-download
-      </v-icon>
-    </base-btn>
+      <template v-slot:activator="{ on, attrs }">
+        <base-btn
+          v-if="$vuetify.breakpoint.mdAndUp"
+          :color="$vuetify.breakpoint.mdAndUp ? 'primary' : 'white'"
+          :dark="$vuetify.breakpoint.smAndDown"
+          :fab="$vuetify.breakpoint.smAndDown"
+          :min-height="$vuetify.breakpoint.mdAndUp ? 64 : undefined"
+          :min-width="$vuetify.breakpoint.mdAndUp ? 175 : undefined"
+          :x-large="$vuetify.breakpoint.mdAndUp"
+          class="mr-3"
+          v-bind="attrs"
+          v-on="on"
+        >
+          <span>
+            Get a Quote
+          </span>
+        </base-btn>
+      </template>
+      <v-card>
+        <v-card-title>
+          <span class="headline">Fill out the form below to get a quote!</span>
+        </v-card-title>
+        <p style="text-align: center;">
+          <iframe
+            style="width: 600px; height: 1500px;"
+            src="https://rfq.digital-quote.com/rfq/index.html?supplier_id=865591b2d73e47c191179bedc15b14a6"
+            no-resize-detection
+          />
+        </p>
+      </v-card>
+    </v-dialog>
+    <v-icon
+      v-if="$vuetify.breakpoint.smAndDown"
+      color="primary"
+      @click.stop="onClickButton"
+    >
+      mdi-menu
+    </v-icon>
   </v-toolbar>
 </template>
 
 <script>
   export default {
     name: 'CoreToolbar',
+    data: () => ({
+      drawer: false,
+      dialog: false,
+      items: [
+        { title: 'Home', icon: 'dashboard' },
+        { title: 'About', icon: 'question_answer' },
+      ],
+    }),
+    methods: {
+      onClickButton (event) {
+        console.log('navigation clicked')
+        console.log(this.drawer)
+        this.drawer = !this.drawer
+        this.$emit('clicked', this.drawer)
+      },
+    },
   }
 </script>
 
@@ -96,4 +125,5 @@
   #core-toolbar
     a
       text-decoration: none
+
 </style>

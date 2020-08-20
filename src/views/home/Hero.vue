@@ -42,6 +42,7 @@
             >
               Quality Manufacturing for over <em>67 years.</em>
             </div>
+            <br class="hidden-md-and-up">
             <v-dialog
               v-model="dialog"
               width="600px"

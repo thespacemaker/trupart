@@ -1,0 +1,561 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" href="/favicon.ico"><title>Trupart Manufacturing</title><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900"><link href="https://cdn.jsdelivr.net/npm/@mdi/font@latest/css/materialdesignicons.min.css" as="style" rel="stylesheet" onload="this.rel='stylesheet'"><link href="/css/app.acad1c62.css" rel="preload" as="style"><link href="/css/chunk-vendors.7bfee74d.css" rel="preload" as="style"><link href="/js/app.3fb00565.js" rel="preload" as="script"><link href="/js/chunk-vendors.a1ae9bbb.js" rel="preload" as="script"><link href="/css/chunk-vendors.7bfee74d.css" rel="stylesheet"><link href="/css/app.acad1c62.css" rel="stylesheet"><link rel="stylesheet" type="text/css" href="/css/chunk-a2114c16.48f1b8b0.css"><script charset="utf-8" src="/js/chunk-a2114c16.16b270bf.js"></script><style data-vue-meta="vuetify" type="text/css" id="vuetify-theme-stylesheet" nonce="undefined">.v-application a { color: #3f51b5; }
+.v-application .primary {
+  background-color: #3f51b5 !important;
+  border-color: #3f51b5 !important;
+}
+.v-application .primary--text {
+  color: #3f51b5 !important;
+  caret-color: #3f51b5 !important;
+}
+.v-application .primary.lighten-5 {
+  background-color: #d2d2ff !important;
+  border-color: #d2d2ff !important;
+}
+.v-application .primary--text.text--lighten-5 {
+  color: #d2d2ff !important;
+  caret-color: #d2d2ff !important;
+}
+.v-application .primary.lighten-4 {
+  background-color: #b5b7ff !important;
+  border-color: #b5b7ff !important;
+}
+.v-application .primary--text.text--lighten-4 {
+  color: #b5b7ff !important;
+  caret-color: #b5b7ff !important;
+}
+.v-application .primary.lighten-3 {
+  background-color: #989cff !important;
+  border-color: #989cff !important;
+}
+.v-application .primary--text.text--lighten-3 {
+  color: #989cff !important;
+  caret-color: #989cff !important;
+}
+.v-application .primary.lighten-2 {
+  background-color: #7b82ee !important;
+  border-color: #7b82ee !important;
+}
+.v-application .primary--text.text--lighten-2 {
+  color: #7b82ee !important;
+  caret-color: #7b82ee !important;
+}
+.v-application .primary.lighten-1 {
+  background-color: #5e69d1 !important;
+  border-color: #5e69d1 !important;
+}
+.v-application .primary--text.text--lighten-1 {
+  color: #5e69d1 !important;
+  caret-color: #5e69d1 !important;
+}
+.v-application .primary.darken-1 {
+  background-color: #193a9a !important;
+  border-color: #193a9a !important;
+}
+.v-application .primary--text.text--darken-1 {
+  color: #193a9a !important;
+  caret-color: #193a9a !important;
+}
+.v-application .primary.darken-2 {
+  background-color: #00257f !important;
+  border-color: #00257f !important;
+}
+.v-application .primary--text.text--darken-2 {
+  color: #00257f !important;
+  caret-color: #00257f !important;
+}
+.v-application .primary.darken-3 {
+  background-color: #001265 !important;
+  border-color: #001265 !important;
+}
+.v-application .primary--text.text--darken-3 {
+  color: #001265 !important;
+  caret-color: #001265 !important;
+}
+.v-application .primary.darken-4 {
+  background-color: #00004d !important;
+  border-color: #00004d !important;
+}
+.v-application .primary--text.text--darken-4 {
+  color: #00004d !important;
+  caret-color: #00004d !important;
+}
+.v-application .secondary {
+  background-color: #9fa8da !important;
+  border-color: #9fa8da !important;
+}
+.v-application .secondary--text {
+  color: #9fa8da !important;
+  caret-color: #9fa8da !important;
+}
+.v-application .secondary.lighten-5 {
+  background-color: #ffffff !important;
+  border-color: #ffffff !important;
+}
+.v-application .secondary--text.text--lighten-5 {
+  color: #ffffff !important;
+  caret-color: #ffffff !important;
+}
+.v-application .secondary.lighten-4 {
+  background-color: #ffffff !important;
+  border-color: #ffffff !important;
+}
+.v-application .secondary--text.text--lighten-4 {
+  color: #ffffff !important;
+  caret-color: #ffffff !important;
+}
+.v-application .secondary.lighten-3 {
+  background-color: #f3fcff !important;
+  border-color: #f3fcff !important;
+}
+.v-application .secondary--text.text--lighten-3 {
+  color: #f3fcff !important;
+  caret-color: #f3fcff !important;
+}
+.v-application .secondary.lighten-2 {
+  background-color: #d7dfff !important;
+  border-color: #d7dfff !important;
+}
+.v-application .secondary--text.text--lighten-2 {
+  color: #d7dfff !important;
+  caret-color: #d7dfff !important;
+}
+.v-application .secondary.lighten-1 {
+  background-color: #bac3f7 !important;
+  border-color: #bac3f7 !important;
+}
+.v-application .secondary--text.text--lighten-1 {
+  color: #bac3f7 !important;
+  caret-color: #bac3f7 !important;
+}
+.v-application .secondary.darken-1 {
+  background-color: #848ebe !important;
+  border-color: #848ebe !important;
+}
+.v-application .secondary--text.text--darken-1 {
+  color: #848ebe !important;
+  caret-color: #848ebe !important;
+}
+.v-application .secondary.darken-2 {
+  background-color: #6a74a3 !important;
+  border-color: #6a74a3 !important;
+}
+.v-application .secondary--text.text--darken-2 {
+  color: #6a74a3 !important;
+  caret-color: #6a74a3 !important;
+}
+.v-application .secondary.darken-3 {
+  background-color: #515c89 !important;
+  border-color: #515c89 !important;
+}
+.v-application .secondary--text.text--darken-3 {
+  color: #515c89 !important;
+  caret-color: #515c89 !important;
+}
+.v-application .secondary.darken-4 {
+  background-color: #38446f !important;
+  border-color: #38446f !important;
+}
+.v-application .secondary--text.text--darken-4 {
+  color: #38446f !important;
+  caret-color: #38446f !important;
+}
+.v-application .accent {
+  background-color: #4fefba !important;
+  border-color: #4fefba !important;
+}
+.v-application .accent--text {
+  color: #4fefba !important;
+  caret-color: #4fefba !important;
+}
+.v-application .accent.lighten-5 {
+  background-color: #edffff !important;
+  border-color: #edffff !important;
+}
+.v-application .accent--text.text--lighten-5 {
+  color: #edffff !important;
+  caret-color: #edffff !important;
+}
+.v-application .accent.lighten-4 {
+  background-color: #cfffff !important;
+  border-color: #cfffff !important;
+}
+.v-application .accent--text.text--lighten-4 {
+  color: #cfffff !important;
+  caret-color: #cfffff !important;
+}
+.v-application .accent.lighten-3 {
+  background-color: #b0ffff !important;
+  border-color: #b0ffff !important;
+}
+.v-application .accent--text.text--lighten-3 {
+  color: #b0ffff !important;
+  caret-color: #b0ffff !important;
+}
+.v-application .accent.lighten-2 {
+  background-color: #91fff2 !important;
+  border-color: #91fff2 !important;
+}
+.v-application .accent--text.text--lighten-2 {
+  color: #91fff2 !important;
+  caret-color: #91fff2 !important;
+}
+.v-application .accent.lighten-1 {
+  background-color: #71ffd6 !important;
+  border-color: #71ffd6 !important;
+}
+.v-application .accent--text.text--lighten-1 {
+  color: #71ffd6 !important;
+  caret-color: #71ffd6 !important;
+}
+.v-application .accent.darken-1 {
+  background-color: #23d29f !important;
+  border-color: #23d29f !important;
+}
+.v-application .accent--text.text--darken-1 {
+  color: #23d29f !important;
+  caret-color: #23d29f !important;
+}
+.v-application .accent.darken-2 {
+  background-color: #00b685 !important;
+  border-color: #00b685 !important;
+}
+.v-application .accent--text.text--darken-2 {
+  color: #00b685 !important;
+  caret-color: #00b685 !important;
+}
+.v-application .accent.darken-3 {
+  background-color: #009a6c !important;
+  border-color: #009a6c !important;
+}
+.v-application .accent--text.text--darken-3 {
+  color: #009a6c !important;
+  caret-color: #009a6c !important;
+}
+.v-application .accent.darken-4 {
+  background-color: #008053 !important;
+  border-color: #008053 !important;
+}
+.v-application .accent--text.text--darken-4 {
+  color: #008053 !important;
+  caret-color: #008053 !important;
+}
+.v-application .error {
+  background-color: #ff5252 !important;
+  border-color: #ff5252 !important;
+}
+.v-application .error--text {
+  color: #ff5252 !important;
+  caret-color: #ff5252 !important;
+}
+.v-application .error.lighten-5 {
+  background-color: #ffe4d5 !important;
+  border-color: #ffe4d5 !important;
+}
+.v-application .error--text.text--lighten-5 {
+  color: #ffe4d5 !important;
+  caret-color: #ffe4d5 !important;
+}
+.v-application .error.lighten-4 {
+  background-color: #ffc6b9 !important;
+  border-color: #ffc6b9 !important;
+}
+.v-application .error--text.text--lighten-4 {
+  color: #ffc6b9 !important;
+  caret-color: #ffc6b9 !important;
+}
+.v-application .error.lighten-3 {
+  background-color: #ffa99e !important;
+  border-color: #ffa99e !important;
+}
+.v-application .error--text.text--lighten-3 {
+  color: #ffa99e !important;
+  caret-color: #ffa99e !important;
+}
+.v-application .error.lighten-2 {
+  background-color: #ff8c84 !important;
+  border-color: #ff8c84 !important;
+}
+.v-application .error--text.text--lighten-2 {
+  color: #ff8c84 !important;
+  caret-color: #ff8c84 !important;
+}
+.v-application .error.lighten-1 {
+  background-color: #ff6f6a !important;
+  border-color: #ff6f6a !important;
+}
+.v-application .error--text.text--lighten-1 {
+  color: #ff6f6a !important;
+  caret-color: #ff6f6a !important;
+}
+.v-application .error.darken-1 {
+  background-color: #df323b !important;
+  border-color: #df323b !important;
+}
+.v-application .error--text.text--darken-1 {
+  color: #df323b !important;
+  caret-color: #df323b !important;
+}
+.v-application .error.darken-2 {
+  background-color: #bf0025 !important;
+  border-color: #bf0025 !important;
+}
+.v-application .error--text.text--darken-2 {
+  color: #bf0025 !important;
+  caret-color: #bf0025 !important;
+}
+.v-application .error.darken-3 {
+  background-color: #9f0010 !important;
+  border-color: #9f0010 !important;
+}
+.v-application .error--text.text--darken-3 {
+  color: #9f0010 !important;
+  caret-color: #9f0010 !important;
+}
+.v-application .error.darken-4 {
+  background-color: #800000 !important;
+  border-color: #800000 !important;
+}
+.v-application .error--text.text--darken-4 {
+  color: #800000 !important;
+  caret-color: #800000 !important;
+}
+.v-application .info {
+  background-color: #2196f3 !important;
+  border-color: #2196f3 !important;
+}
+.v-application .info--text {
+  color: #2196f3 !important;
+  caret-color: #2196f3 !important;
+}
+.v-application .info.lighten-5 {
+  background-color: #d4ffff !important;
+  border-color: #d4ffff !important;
+}
+.v-application .info--text.text--lighten-5 {
+  color: #d4ffff !important;
+  caret-color: #d4ffff !important;
+}
+.v-application .info.lighten-4 {
+  background-color: #b5ffff !important;
+  border-color: #b5ffff !important;
+}
+.v-application .info--text.text--lighten-4 {
+  color: #b5ffff !important;
+  caret-color: #b5ffff !important;
+}
+.v-application .info.lighten-3 {
+  background-color: #95e8ff !important;
+  border-color: #95e8ff !important;
+}
+.v-application .info--text.text--lighten-3 {
+  color: #95e8ff !important;
+  caret-color: #95e8ff !important;
+}
+.v-application .info.lighten-2 {
+  background-color: #75ccff !important;
+  border-color: #75ccff !important;
+}
+.v-application .info--text.text--lighten-2 {
+  color: #75ccff !important;
+  caret-color: #75ccff !important;
+}
+.v-application .info.lighten-1 {
+  background-color: #51b0ff !important;
+  border-color: #51b0ff !important;
+}
+.v-application .info--text.text--lighten-1 {
+  color: #51b0ff !important;
+  caret-color: #51b0ff !important;
+}
+.v-application .info.darken-1 {
+  background-color: #007cd6 !important;
+  border-color: #007cd6 !important;
+}
+.v-application .info--text.text--darken-1 {
+  color: #007cd6 !important;
+  caret-color: #007cd6 !important;
+}
+.v-application .info.darken-2 {
+  background-color: #0064ba !important;
+  border-color: #0064ba !important;
+}
+.v-application .info--text.text--darken-2 {
+  color: #0064ba !important;
+  caret-color: #0064ba !important;
+}
+.v-application .info.darken-3 {
+  background-color: #004d9f !important;
+  border-color: #004d9f !important;
+}
+.v-application .info--text.text--darken-3 {
+  color: #004d9f !important;
+  caret-color: #004d9f !important;
+}
+.v-application .info.darken-4 {
+  background-color: #003784 !important;
+  border-color: #003784 !important;
+}
+.v-application .info--text.text--darken-4 {
+  color: #003784 !important;
+  caret-color: #003784 !important;
+}
+.v-application .success {
+  background-color: #4caf50 !important;
+  border-color: #4caf50 !important;
+}
+.v-application .success--text {
+  color: #4caf50 !important;
+  caret-color: #4caf50 !important;
+}
+.v-application .success.lighten-5 {
+  background-color: #dcffd6 !important;
+  border-color: #dcffd6 !important;
+}
+.v-application .success--text.text--lighten-5 {
+  color: #dcffd6 !important;
+  caret-color: #dcffd6 !important;
+}
+.v-application .success.lighten-4 {
+  background-color: #beffba !important;
+  border-color: #beffba !important;
+}
+.v-application .success--text.text--lighten-4 {
+  color: #beffba !important;
+  caret-color: #beffba !important;
+}
+.v-application .success.lighten-3 {
+  background-color: #a2ff9e !important;
+  border-color: #a2ff9e !important;
+}
+.v-application .success--text.text--lighten-3 {
+  color: #a2ff9e !important;
+  caret-color: #a2ff9e !important;
+}
+.v-application .success.lighten-2 {
+  background-color: #85e783 !important;
+  border-color: #85e783 !important;
+}
+.v-application .success--text.text--lighten-2 {
+  color: #85e783 !important;
+  caret-color: #85e783 !important;
+}
+.v-application .success.lighten-1 {
+  background-color: #69cb69 !important;
+  border-color: #69cb69 !important;
+}
+.v-application .success--text.text--lighten-1 {
+  color: #69cb69 !important;
+  caret-color: #69cb69 !important;
+}
+.v-application .success.darken-1 {
+  background-color: #2d9437 !important;
+  border-color: #2d9437 !important;
+}
+.v-application .success--text.text--darken-1 {
+  color: #2d9437 !important;
+  caret-color: #2d9437 !important;
+}
+.v-application .success.darken-2 {
+  background-color: #00791e !important;
+  border-color: #00791e !important;
+}
+.v-application .success--text.text--darken-2 {
+  color: #00791e !important;
+  caret-color: #00791e !important;
+}
+.v-application .success.darken-3 {
+  background-color: #006000 !important;
+  border-color: #006000 !important;
+}
+.v-application .success--text.text--darken-3 {
+  color: #006000 !important;
+  caret-color: #006000 !important;
+}
+.v-application .success.darken-4 {
+  background-color: #004700 !important;
+  border-color: #004700 !important;
+}
+.v-application .success--text.text--darken-4 {
+  color: #004700 !important;
+  caret-color: #004700 !important;
+}
+.v-application .warning {
+  background-color: #fb8c00 !important;
+  border-color: #fb8c00 !important;
+}
+.v-application .warning--text {
+  color: #fb8c00 !important;
+  caret-color: #fb8c00 !important;
+}
+.v-application .warning.lighten-5 {
+  background-color: #ffff9e !important;
+  border-color: #ffff9e !important;
+}
+.v-application .warning--text.text--lighten-5 {
+  color: #ffff9e !important;
+  caret-color: #ffff9e !important;
+}
+.v-application .warning.lighten-4 {
+  background-color: #fffb82 !important;
+  border-color: #fffb82 !important;
+}
+.v-application .warning--text.text--lighten-4 {
+  color: #fffb82 !important;
+  caret-color: #fffb82 !important;
+}
+.v-application .warning.lighten-3 {
+  background-color: #ffdf67 !important;
+  border-color: #ffdf67 !important;
+}
+.v-application .warning--text.text--lighten-3 {
+  color: #ffdf67 !important;
+  caret-color: #ffdf67 !important;
+}
+.v-application .warning.lighten-2 {
+  background-color: #ffc24b !important;
+  border-color: #ffc24b !important;
+}
+.v-application .warning--text.text--lighten-2 {
+  color: #ffc24b !important;
+  caret-color: #ffc24b !important;
+}
+.v-application .warning.lighten-1 {
+  background-color: #ffa72d !important;
+  border-color: #ffa72d !important;
+}
+.v-application .warning--text.text--lighten-1 {
+  color: #ffa72d !important;
+  caret-color: #ffa72d !important;
+}
+.v-application .warning.darken-1 {
+  background-color: #db7200 !important;
+  border-color: #db7200 !important;
+}
+.v-application .warning--text.text--darken-1 {
+  color: #db7200 !important;
+  caret-color: #db7200 !important;
+}
+.v-application .warning.darken-2 {
+  background-color: #bb5900 !important;
+  border-color: #bb5900 !important;
+}
+.v-application .warning--text.text--darken-2 {
+  color: #bb5900 !important;
+  caret-color: #bb5900 !important;
+}
+.v-application .warning.darken-3 {
+  background-color: #9d4000 !important;
+  border-color: #9d4000 !important;
+}
+.v-application .warning--text.text--darken-3 {
+  color: #9d4000 !important;
+  caret-color: #9d4000 !important;
+}
+.v-application .warning.darken-4 {
+  background-color: #802700 !important;
+  border-color: #802700 !important;
+}
+.v-application .warning--text.text--darken-4 {
+  color: #802700 !important;
+  caret-color: #802700 !important;
+}</style><script charset="utf-8" src="/js/chunk-49b82888.a2105572.js"></script><script charset="utf-8" src="/js/chunk-2fe9e333.25191020.js"></script><link rel="stylesheet" type="text/css" href="/css/chunk-65d41344.bd04ac15.css"><script charset="utf-8" src="/js/chunk-65d41344.734f2bdd.js"></script><script charset="utf-8" src="/js/chunk-01cf52d2.7db4fe56.js"></script><script charset="utf-8" src="/js/chunk-02111aec.bb77deb8.js"></script><script charset="utf-8" src="/js/chunk-021372a0.4ad69682.js"></script><script charset="utf-8" src="/js/chunk-01e6ee3a.3cb79203.js"></script><meta data-vue-meta="1" data-vmid="description" name="description" content="&amp; I will not be <sanitized>"></head><body><noscript><strong>We're sorry but TruPart doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div data-app="true" class="v-application v-application--is-ltr theme--light" id="app"><div class="v-application--wrap"><nav class="v-navigation-drawer v-navigation-drawer--close v-navigation-drawer--fixed v-navigation-drawer--is-mobile v-navigation-drawer--right v-navigation-drawer--temporary theme--light" style="height: 100vh; top: 0px; transform: translateX(100%); width: 256px;" data-booted="true"><div class="v-navigation-drawer__content"><div tabindex="-1" class="v-list-item theme--light"><div class="v-avatar v-list-item__avatar" style="height: 40px; min-width: 40px; width: 40px;"><div class="v-image v-responsive theme--light"><div class="v-image__image v-image__image--preload v-image__image--cover" style="background-position: center center;"></div><div class="v-responsive__content"></div></div></div><div class="v-list-item__content"><div class="v-list-item__title">TruPart Manufacturing, Inc.</div></div></div><hr role="separator" aria-orientation="horizontal" class="v-divider theme--light"><div class="v-list v-sheet theme--light v-list--dense"><a href="/" aria-current="page" class="v-list-item--active v-list-item v-list-item--link theme--light" tabindex="0"><div class="v-list-item__content"><div class="v-list-item__title">Home</div></div></a><a href="/about" class="v-list-item v-list-item--link theme--light" tabindex="0"><div class="v-list-item__content"><div class="v-list-item__title">About</div></div></a><a href="/services" class="v-list-item v-list-item--link theme--light" tabindex="0"><div class="v-list-item__content"><div class="v-list-item__title">Services</div></div></a></div></div><div class="v-navigation-drawer__border"></div></nav><div aria-label="Background Texture" role="img" class="v-image v-responsive theme--light" style="height: 650px; max-width: 100%; width: 1300px; position: absolute; top: 0px; left: 0px;"><div class="v-responsive__sizer" style="padding-bottom: 48%;"></div><div class="v-image__image v-image__image--cover" style="background-image: url(&quot;http://localhost:8000/img/blob-top-min2.99c32448.png&quot;); background-position: center center;"></div><div class="v-responsive__content" style="width: 1800px;"></div></div><img src="/img/blob-left-side2.0ee31188.png" height="700" alt="Background Texture" class="hidden-sm-and-down" style="position: absolute; top: 450vh; left: 0px;"><img src="/img/blob-right-side2.b866553d.png" height="500" alt="Background Texture" class="hidden-sm-and-down" style="position: absolute; top: 425vh; right: 0px;"><header class="v-sheet theme--light v-toolbar v-toolbar--flat transparent" id="core-toolbar" style="height: 128px;"><div class="v-toolbar__content" style="height: 128px;"><div class="v-toolbar__title display-1 font-weight-black d-inline-flex px-0 px-md-8 align-center"><a href="/" aria-current="page" class="router-link-exact-active router-link-active white--text"><div class="v-avatar mr-3 rounded-0" style="height: 48px; min-width: 48px; width: 48px;"><div class="v-image v-responsive theme--light"><div class="v-responsive__sizer" style="padding-bottom: 99.7951%;"></div><div class="v-image__image v-image__image--contain" style="background-image: url(&quot;http://localhost:8000/img/logo.8cddc24f.png&quot;); background-position: center center;"></div><div class="v-responsive__content" style="width: 488px;"></div></div></div><span class="hidden-sm-and-down"> TruPart <span class="font-weight-light">Manufacturing</span></span></a></div><div class="spacer"></div><a href="/about" class="mr-3 v-btn v-btn--flat v-btn--icon v-btn--round v-btn--router v-btn--text theme--dark v-size--x-large"><span class="v-btn__content"></span></a><a href="/services" class="mr-3 v-btn v-btn--flat v-btn--icon v-btn--round v-btn--router v-btn--text theme--dark v-size--x-large"><span class="v-btn__content"></span></a><div role="dialog" class="v-dialog__container"><!----></div><button type="button" class="v-icon notranslate v-icon--link mdi mdi-menu theme--light primary--text"></button></div></header><main class="v-main" style="padding: 0px;" data-booted="true"><div class="v-main__wrap"><section id="home"><section class="container px-0 pt-0" id="hero"><div class="v-responsive overflow-visible" style="min-height: 50vh;"><div class="v-responsive__content"><div class="row fill-height mx-0 align-center justify-space-around align-content-center"><!----><div class="col col-auto" style="transform-origin: center top 0px;"><h1 class="font-weight-bold display-2 white--text"> TruPart <span class="font-weight-light">Manufacturing</span></h1><div class="grey--text mb-md-12 mb-6 headline text--lighten-1"> Quality Manufacturing for over <em>67 years.</em></div><br class="hidden-md-and-up"><div role="dialog" class="v-dialog__container"><!----></div><button type="button" class="title v-btn v-btn--block theme--dark elevation-6 v-size--default text-capitalize primary" role="button" aria-haspopup="true" aria-expanded="false" style="height: 64px;"><span class="v-btn__content"> Get a Quote Now </span></button></div><div class="mt-12 col col-12" style="transform-origin: center top 0px;"><div class="pa-12 v-card v-sheet theme--light elevation-24"><div class="row text-center"><div class="col-md-4 col-12"><div class="v-image v-responsive mb-8 theme--light" style="max-height: 200px; width: 100%;"><div class="v-responsive__sizer" style="padding-bottom: 55.4945%;"></div><div class="v-image__image v-image__image--contain" style="background-image: url(&quot;http://localhost:8000/img/1.16a3e8b4.png&quot;); background-position: center center;"></div><div class="v-responsive__content" style="width: 546px;"></div></div><h2 class="headline font-weight-bold mb-6">Design</h2><div class="v-responsive grey--text body-1 mx-auto" style="max-width: 256px;">Need help with product design? Trupart has skilled engineers on site that can help you with any of your design woes.</div></div><div class="col-md-4 col-12"><div class="v-image v-responsive mb-8 theme--light" style="max-height: 200px; width: 100%;"><div class="v-image__image v-image__image--preload v-image__image--contain" style="background-position: center center;"></div><div class="v-responsive__content"></div></div><h2 class="headline font-weight-bold mb-6">Prototype</h2><div class="v-responsive grey--text body-1 mx-auto" style="max-width: 256px;">With 3D printing and rapid prototyping capabilities we can create custom tooling and specialized manufacturing processes to rapidly build your prototypes</div></div><div class="col-md-4 col-12"><div class="v-image v-responsive mb-8 theme--light" style="max-height: 200px; width: 100%;"><div class="v-image__image v-image__image--preload v-image__image--contain" style="background-position: center center;"></div><div class="v-responsive__content"></div></div><h2 class="headline font-weight-bold mb-6">Fabrication and Production</h2><div class="v-responsive grey--text body-1 mx-auto" style="max-width: 256px;">We have manufactured over 20,000,000 parts. Trupart can handle your manufacturing and production needs no matter the scale!</div></div></div></div></div></div></div></div></section><section class="container" id="features"><div class="subheading mb-12 text-center"><h2 class="font-weight-bold mb-6 display-1">Industry Leading</h2><div class="font-weight-light title">Expert Metal Fabrication, Made in the USA.</div></div><div class="row align-center"><div class="col-md-6 col-12"><div class="subheading text-center"><h2 class="font-weight-bold mb-6 display-1">200+ Years Experience</h2><div class="font-weight-light title">Our team has over 200 years of experience. Spanning so many skill sets and overlapping in many, you have several people watching out over your components who have spent their lives in this industry. Multifaceted veterans hand-selected, highly sought after, loyal to the standards or founder Karl Schlosser built into our foundation 46 years ago. Old school work ethic and practices, modern software and equipment.</div></div></div><div class="col"><div class="mx-auto v-card v-sheet theme--light elevation-24" style="height: 600px; max-width: 100%; width: 500px;"><div class="v-image v-responsive theme--light" style="height: 100%;"><div class="v-image__image v-image__image--preload v-image__image--cover" style="background-position: center center;"></div><div class="v-image__placeholder"><div class="row fill-height ma-0 align-center justify-center"><div role="progressbar" aria-valuemin="0" aria-valuemax="100" class="v-progress-circular v-progress-circular--indeterminate grey--text text--lighten-5" style="height: 32px; width: 32px;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="22.857142857142858 22.857142857142858 45.714285714285715 45.714285714285715" style="transform: rotate(0deg);"><circle fill="transparent" cx="45.714285714285715" cy="45.714285714285715" r="20" stroke-width="5.714285714285714" stroke-dasharray="125.664" stroke-dashoffset="125.66370614359172px" class="v-progress-circular__overlay"></circle></svg><div class="v-progress-circular__info"></div></div></div></div><div class="v-responsive__content"></div></div></div></div></div><br class="hidden-md-and-up"><div class="v-lazy" style="min-height: 200px;"><!----></div><br class="hidden-md-and-up"><div class="row align-center"><div class="col-md-6 col-12"><div class="subheading text-center"><h2 class="font-weight-bold mb-6 display-1">Complete Control</h2><div class="font-weight-light title">From aluminum, to steel, to polymers and plastics, we can bring your creation to life today!</div></div></div><div class="col"><div class="mx-auto v-card v-sheet theme--light elevation-24" style="height: 600px; max-width: 100%; width: 500px;"><div class="v-image v-responsive theme--light" style="height: 100%;"><div class="v-image__image v-image__image--preload v-image__image--cover" style="background-position: center center;"></div><div class="v-image__placeholder"><div class="row fill-height ma-0 align-center justify-center"><div role="progressbar" aria-valuemin="0" aria-valuemax="100" class="v-progress-circular v-progress-circular--indeterminate grey--text text--lighten-5" style="height: 32px; width: 32px;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="22.857142857142858 22.857142857142858 45.714285714285715 45.714285714285715" style="transform: rotate(0deg);"><circle fill="transparent" cx="45.714285714285715" cy="45.714285714285715" r="20" stroke-width="5.714285714285714" stroke-dasharray="125.664" stroke-dashoffset="125.66370614359172px" class="v-progress-circular__overlay"></circle></svg><div class="v-progress-circular__info"></div></div></div></div><div class="v-responsive__content"></div></div></div></div></div></section><section class="container" id="stack"><div class="mx-auto pa-12 v-card v-sheet theme--dark elevation-24 primary" style="max-width: 90%; width: 900px;"><div class="subheading text-center"><h2 class="font-weight-bold mb-6 display-1">How We Stack Up</h2><div class="font-weight-light title">Competitor analysis</div></div></div><div class="mt-n4 mx-auto pa-6 v-card v-sheet theme--light elevation-24" style="max-width: 1100px;"><div class="v-data-table theme--light"><div class="v-data-table__wrapper"><table><thead><tr><th></th><th class="pt-3"><div class="v-avatar transparent" style="height: 40px; min-width: 40px; width: 40px;"><div class="v-image v-responsive theme--light"><div class="v-image__image v-image__image--preload v-image__image--contain" style="background-position: center center;"></div><div class="v-responsive__content"></div></div></div></th><th class="pt-3"><div class="v-avatar transparent" style="height: 40px; min-width: 40px; width: 40px;"><div class="v-image v-responsive theme--light"><div class="v-image__image v-image__image--preload v-image__image--contain" style="background-position: center center;"></div><div class="v-responsive__content"></div></div></div></th><th class="pt-3"><div class="v-avatar transparent" style="height: 40px; min-width: 40px; width: 40px;"><div class="v-image v-responsive theme--light"><div class="v-image__image v-image__image--preload v-image__image--contain" style="background-position: center center;"></div><div class="v-responsive__content"></div></div></div></th><!----><!----></tr><tr><th> Services </th><th> TrupartMfg </th><th> CNC Shop </th><th> Sheetmetal </th><!----></tr></thead><tbody><tr><td>CAD/CAM</td><td><div class="v-avatar" style="height: 24px; min-width: 24px; width: 24px; background-color: rgb(70, 213, 209); border-color: rgb(70, 213, 209);"><i aria-hidden="true" class="v-icon notranslate mdi mdi-check theme--dark" style="font-size: 16px;"></i></div></td><td><div class="v-avatar" style="height: 24px; min-width: 24px; width: 24px; background-color: rgb(70, 213, 209); border-color: rgb(70, 213, 209);"><i aria-hidden="true" class="v-icon notranslate mdi mdi-check theme--dark" style="font-size: 16px;"></i></div></td><td><div class="v-avatar" style="height: 24px; min-width: 24px; width: 24px; background-color: rgb(70, 213, 209); border-color: rgb(70, 213, 209);"><i aria-hidden="true" class="v-icon notranslate mdi mdi-check theme--dark" style="font-size: 16px;"></i></div></td><!----></tr><tr><td>Enginerring Support</td><td><div class="v-avatar" style="height: 24px; min-width: 24px; width: 24px; background-color: rgb(70, 213, 209); border-color: rgb(70, 213, 209);"><i aria-hidden="true" class="v-icon notranslate mdi mdi-check theme--dark" style="font-size: 16px;"></i></div></td><td><div class="v-avatar" style="height: 24px; min-width: 24px; width: 24px; background-color: rgb(70, 213, 209); border-color: rgb(70, 213, 209);"><i aria-hidden="true" class="v-icon notranslate mdi mdi-check theme--dark" style="font-size: 16px;"></i></div></td><td></td><!----></tr><tr><td>Expedited Quotes</td><td><div class="v-avatar" style="height: 24px; min-width: 24px; width: 24px; background-color: rgb(70, 213, 209); border-color: rgb(70, 213, 209);"><i aria-hidden="true" class="v-icon notranslate mdi mdi-check theme--dark" style="font-size: 16px;"></i></div></td><td><div class="v-avatar" style="height: 24px; min-width: 24px; width: 24px; background-color: rgb(70, 213, 209); border-color: rgb(70, 213, 209);"><i aria-hidden="true" class="v-icon notranslate mdi mdi-check theme--dark" style="font-size: 16px;"></i></div></td><td></td><!----></tr><tr><td>Consultations over Zoom and VR</td><td><div class="v-avatar" style="height: 24px; min-width: 24px; width: 24px; background-color: rgb(70, 213, 209); border-color: rgb(70, 213, 209);"><i aria-hidden="true" class="v-icon notranslate mdi mdi-check theme--dark" style="font-size: 16px;"></i></div></td><td><div class="v-avatar" style="height: 24px; min-width: 24px; width: 24px; background-color: rgb(70, 213, 209); border-color: rgb(70, 213, 209);"><i aria-hidden="true" class="v-icon notranslate mdi mdi-check theme--dark" style="font-size: 16px;"></i></div></td><td></td><!----></tr></tbody></table></div></div></div></section><section class="container container--fluid" id="token"><div class="subheading mb-12 text-center"><h2 class="font-weight-bold mb-6 display-1">TruPart</h2><div class="font-weight-light title">What sets us apart</div></div><div class="row no-gutters justify-space-around"><div class="text-center mb-6 mb-md-0 col-md-auto col-12"><div class="pa-6 mb-6 mx-auto v-card v-sheet theme--light elevation-24 primary" style="width: 128px;"><i aria-hidden="true" class="v-icon notranslate material-icons theme--dark" style="font-size: 80px;">thumb_up</i></div><h4 class="headline font-weight-bold"> ASAP Approval </h4><div class="title font-weight-light"> Expedited parts and quotes </div></div><div class="col col-12"></div><div class="text-center mb-6 mb-md-0 col-md-auto col-12"><div class="pa-6 mx-auto mb-6 v-card v-sheet theme--light elevation-24 primary" style="width: 128px;"><i aria-hidden="true" class="v-icon notranslate material-icons theme--dark" style="font-size: 80px;">track_changes</i></div><h4 class="headline font-weight-bold"> Track Your Parts </h4><div class="title font-weight-light"> Coming Soon... </div></div><div class="text-center mb-6 mb-md-0 col-md-auto col-12"><div class="pa-6 mx-auto mb-6 v-card v-sheet theme--light elevation-24 primary" style="width: 128px;"><div class="v-image v-responsive theme--light" style="height: 74px; width: 74px;"><div class="v-image__image v-image__image--preload v-image__image--cover" style="background-position: center center;"></div><div class="v-responsive__content"></div></div></div><h4 class="headline font-weight-bold"> Verified </h4><div class="title font-weight-light"> Human verification for every part </div></div><div class="col col-12"></div><div class="text-center mb-6 mb-md-0 col-md-auto col-12"><div class="pa-6 mb-6 mx-auto v-card v-sheet theme--light elevation-24 primary" style="width: 128px;"><div class="v-image v-responsive theme--light" style="height: 74px; width: 74px;"><div class="v-image__image v-image__image--preload v-image__image--contain" style="background-position: center center;"></div><div class="v-responsive__content"></div></div></div><h4 class="headline font-weight-bold"> 46 Years of Excellence </h4></div><div class="col col-12"></div><div class="text-center mb-6 mb-md-0 col-md-auto col-12"><div class="pa-6 mx-auto mb-6 v-card v-sheet theme--light elevation-24 primary" style="width: 128px;"><i aria-hidden="true" class="v-icon notranslate material-icons theme--dark" style="font-size: 80px;">memory</i></div><h4 class="headline font-weight-bold"> Machine Learning </h4><div class="title font-weight-light"> We use state of the art<br> algorithms to check designs for flaws </div></div><div class="text-center mb-6 mb-md-0 col-md-auto col-12"><div class="pa-6 mx-auto mb-6 v-card v-sheet theme--light elevation-24 primary" style="width: 128px;"><i aria-hidden="true" class="v-icon notranslate material-icons theme--dark" style="font-size: 80px;">local_airport</i></div><h4 class="headline font-weight-bold"> Aircraft grade </h4><div class="title font-weight-light"> We produce parts for SpaceX, Lockheed, <br>Boeing, Blue Origin and more! </div></div><div class="col col-12"></div><div class="text-center col-md-auto col-12"><div class="pa-6 mx-auto mb-6 v-card v-sheet theme--light elevation-24 primary" style="width: 128px;"><i aria-hidden="true" class="v-icon notranslate material-icons theme--dark" style="font-size: 80px;">vpn_lock</i></div><h4 class="headline font-weight-bold"> Global </h4><div class="title font-weight-light"> Secure Shipping Worldwide </div></div></div></section><section class="container px-3" id="video"><div class="subheading mb-12 text-center"><h2 class="font-weight-bold mb-6 display-1">TruPart in Motion</h2><div class="font-weight-light title">Sit back and enjoy.</div></div><div class="mx-auto v-card v-sheet theme--light elevation-24" style="height: 400px; max-width: 800px;"><iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen" frameborder="0" height="100%" src="https://www.youtube.com/embed/pV82LruAeNk" width="100%" title="Youtube video of trupart manufacturing"></iframe></div></section><section class="container hidden-xs-and-down container--fluid" id="roadmap"><div class="subheading mb-12 text-center"><h2 class="font-weight-bold mb-6 display-1">Our Stats</h2><div class="font-weight-light title">How TruPart builds the future</div></div><div class="container"><div class="row pt-12"><div class="col-md-6 col-12"><div class="px-8 py-12 v-card v-sheet theme--dark elevation-12" color="#FA6F9E" dark="" width="100%" style="width: 100%; background-color: rgb(250, 111, 158); border-color: rgb(250, 111, 158);"><div class="v-card__title font-weight-light">Business stats</div><div class="v-card__text"><div class="row"><div class="mt-4 col-xl-3 col-6"><div class="headline font-weight-bold white--text mb-5">2 Million+</div><span class="text-uppercase font-weight-bold">Parts Manufactured</span></div><div class="mt-4 col-xl-3 col-6"><div class="headline font-weight-bold white--text mb-5">3</div><span class="text-uppercase font-weight-bold">Generations Family Owned</span></div><div class="mt-4 col-xl-3 col-6"><div class="headline font-weight-bold white--text mb-5">47</div><span class="text-uppercase font-weight-bold">Years in Business</span></div><div class="mt-4 col-xl-3 col-6"><div class="headline font-weight-bold white--text mb-5">200+</div><span class="text-uppercase font-weight-bold">Years of Experience</span></div></div></div></div></div><div class="col-md-6 col-12"><div class="px-8 py-12 v-card v-sheet theme--dark elevation-12 secondary" color="secondary" dark="" width="100%" style="width: 100%;"><div class="v-card__title font-weight-light">The Fight Against Covid</div><div class="v-card__text"><div class="row"><div class="mt-4 col-xl-3 col-6"><div class="headline font-weight-bold white--text mb-5">2000</div><span class="text-uppercase font-weight-bold">Face Shields Produced</span></div><div class="mt-4 col-xl-3 col-6"><div class="headline font-weight-bold white--text mb-5">2000</div><span class="text-uppercase font-weight-bold">Face Shields Donated</span></div><div class="mt-4 col-xl-3 col-6"><div class="headline font-weight-bold white--text mb-5">100s</div><span class="text-uppercase font-weight-bold">Hours of time</span></div><div class="mt-4 col-xl-3 col-6"><div class="headline font-weight-bold white--text mb-5">7</div><span class="text-uppercase font-weight-bold">Open Source Contributions</span></div></div></div></div></div></div></div></section><section class="container mb-12" id="beat" style="z-index: 1; position: relative;"><div class="subheading mb-12 text-center"><h2 class="font-weight-bold mb-6 display-1">Get a Quote!</h2><div class="font-weight-light title">Get started on your quote today</div></div><div role="dialog" class="v-dialog__container"><!----></div><button type="button" class="title v-btn v-btn--block theme--dark elevation-6 v-size--default text-capitalize primary" role="button" aria-haspopup="true" aria-expanded="false" style="height: 64px;"><span class="v-btn__content"> Get a Quote Now </span></button></section></section></div></main><div id="footer"><img src="/img/blob-bottom-desktop.da7b04d4.png" width="100%" class="hidden-sm-and-down"><footer class="v-footer grey--text transparent px-0 px-md-6 text-center text-md-left v-sheet theme--light" data-booted="true"><div class="row mx-0"><div class="col-md-4 col-12"><div class="headline font-weight-bold primary--text mb-6 d-inline-flex align-center"><div class="v-avatar mr-3" style="height: 48px; min-width: 48px; width: 48px;"><div class="v-image v-responsive theme--light"><div class="v-responsive__sizer" style="padding-bottom: 99.7951%;"></div><div class="v-image__image v-image__image--contain" style="background-image: url(&quot;http://localhost:8000/img/logo-dark.11225027.png&quot;); background-position: center center;"></div><div class="v-responsive__content" style="width: 488px;"></div></div></div> TruPart Manufacturing </div><div class="subtitle-1 font-weight-light mb-6 hidden-sm-and-down"> TruPart Manufacturing, Inc<br> 4450 Dupont Ct.<br> Suite A<br> Ventura, California, 93003 </div><div class="subtitle-1 font-weight-light mb-0 mb-md-8"><a href="#" class="grey--text">Legal Notice</a> | <a href="#" class="grey--text">Privacy Policy</a></div></div><div class="col-md-4 col-12"><div class="headline font-weight-bold primary--text mb-6"> Sitemap </div><a href="/services" class="title font-weight-light grey--text d-block mb-4"> Services </a><a href="/about" class="title font-weight-light grey--text d-block mb-4"> About </a></div><div class="col-md-4 col-12"><div class="row text-center row--dense"><div class="mb-6 mb-md-12 text-center col col-3"><a href="https://www.facebook.com/trupartmanufacturing" target="_blank" class="v-btn v-btn--contained v-btn--fab v-btn--round theme--light v-size--small white"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate mdi mdi-facebook theme--light primary--text"></i></span></a></div><div class="mb-6 mb-md-12 text-center col col-3"><a href="https://www.instagram.com/trupartmfg" target="_blank" class="v-btn v-btn--contained v-btn--fab v-btn--round theme--light v-size--small white"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate mdi mdi-instagram theme--light primary--text"></i></span></a></div><div class="mb-6 mb-md-12 text-center col col-3"><a href="mailto:sales@trupartmfg.com" target="_blank" class="v-btn v-btn--contained v-btn--fab v-btn--round theme--light v-size--small white"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate mdi mdi-mail theme--light primary--text"></i></span></a></div><div class="mb-6 mb-md-12 text-center col col-3"><a href="https://www.youtube.com/channel/UCJ6tBVI7DPOHLMwEziPVdmw " target="_blank" class="v-btn v-btn--contained v-btn--fab v-btn--round theme--light v-size--small white"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate mdi mdi-youtube theme--light primary--text"></i></span></a></div></div></div></div></footer></div></div></div><script src="/js/chunk-vendors.a1ae9bbb.js"></script><script src="/js/app.3fb00565.js"></script></body></html>
