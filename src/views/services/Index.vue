@@ -51,7 +51,7 @@
       </v-row>
     </v-container>
 
-    <base-subheading
+    <!-- <base-subheading
       class="mb-8 primary--text"
       title="Frequently Asked Questions"
     />
@@ -75,7 +75,7 @@
           </v-expansion-panel>
         </v-expansion-panels>
       </v-col>
-    </v-row>
+    </v-row> -->
 
     <v-container>
       <v-row class="pt-12">
