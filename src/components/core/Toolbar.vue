@@ -54,6 +54,18 @@
         Services
       </span>
     </v-btn>
+    <v-btn
+      :dark="$vuetify.breakpoint.smAndDown"
+      :icon="$vuetify.breakpoint.smAndDown"
+      class="mr-3"
+      text
+      to="/tools"
+      x-large
+    >
+      <span v-if="$vuetify.breakpoint.mdAndUp">
+        Tools
+      </span>
+    </v-btn>
     <v-dialog
       v-model="dialog"
       width="600px"
@@ -108,6 +120,7 @@
       items: [
         { title: 'Home', icon: 'dashboard' },
         { title: 'About', icon: 'question_answer' },
+        { title: 'Tools', icon: 'question_answer' },
       ],
     }),
     methods: {
