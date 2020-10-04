@@ -122,7 +122,7 @@
       meta2: [{
         vmid: 'keywords',
         name: 'keywords',
-        content: 'services, manufacturing, waterjet, laser, laser cutting, 3d print, fabrication, metal working',
+        content: 'services, manufacturing, waterjet, laser, laser cutting, 3d printing, fabrication, metal working',
       }],
     },
     data: () => ({
@@ -149,9 +149,9 @@
       services: [
         {
           title: 'Waterjet Cutting',
-          subtitle: 'Water cutting for the untypical of sheet metal laser cutting. Thick metal plate, stone, plastics and wood from 3/4 of an inch up to 8". the klargest our table can cut is 80x160 inches <br /> High precision typically .003 depending on the thickness and materials., Trupart has been waterjet cutting for over 20 years and familiar with prper cutting techniques ensuring a quality cut on hard to machine materials. Garolite, carbon fiber, laminates and glass are no match for our machinists and table',
+          subtitle: 'Water cutting for the untypical of sheet metal laser cutting. Thick metal plate, stone, plastics and wood from 3/4 of an inch up to 8". the largest our table can cut is 80x160 inches <br /> High precision typically .003 depending on the thickness and materials., Trupart has been waterjet cutting for over 20 years and familiar with proper cutting techniques ensuring a quality cut on hard to machine materials. Garolite, carbon fiber, laminates and glass are no match for our machinists and table',
           src: 'waterjet.jpg',
-          alt: 'waterjet cutting aluminium',
+          alt: 'waterjet cutting aluminum',
         },
         {
           title: 'Laser Cutting',
@@ -167,25 +167,25 @@
         },
         {
           title: 'Metal Stamping',
-          subtitle: 'Metal Stampingm our found Karl Schlossers bread and butter. Machines cast in metal, built to last century\'s like heirlooms, typical of that generations quality. One we strive to achieve by the minute<br />Timetest, reject rates of 0.02 consistently for 46 years, we make mistakes, the numbers don\'t lie though. It\'s rare, we don\'t charge enough to do the job twice<br />Brilliant people making quality parts with engineers who can build rockets, cars, or whatever is called upon. Quite frankly, they have built all that and i\'m sure other items that are so top secret we\'d be shot if we knew',
+          subtitle: 'Metal Stamping our found Karl Schlosser's bread and butter. Machines cast in metal, built to last century\'s like heirlooms, typical of that generations quality. One we strive to achieve by the minute<br />Time-tested, reject rates of 0.02 consistently for 46 years, we make mistakes, the numbers don\'t lie though. It\'s rare, we don\'t charge enough to do the job twice<br />Brilliant people making quality parts with engineers who can build rockets, cars, or whatever is called upon. Quite frankly, they have built all that and I'm sure other items that are so top secret we\'d be shot if we knew',
           src: 'stamping.jpg',
           alt: 'Many stamped copper pieces',
         },
         {
           title: 'Production 3D printing/3D Scanning',
-          subtitle: 'A revolution is on the horizon. Parts made overnight, in quantities that will blow your mind. 100\'s of parts manufactured overnight by machines that require no tooling <br />Impossible? Not anymore. At Trupart, we have developed a proprietary process that allows us to 3D print difficult geometries, in exotic materials that your big 3 print coporations cannot offer. Our exclusive part finishing strengthens and smooths 3d printed parts closing the gap on injection molding.<br />Do you like spending 10s of thousands of dollars on tooling and waiting 3 month, then sending back to touch it up because it was off a couple thou?<br />Well your dream has come tru. Produce3D our inhouse 3D print factory is prepared for your production parts. Multihead printers producing hundreds of parts a day. <br /> Flame retardnant ABS certed to FAR 25.843, FDA nylon and PETG for food packaging. Just some of our certed materials prepared for your production, or emergency. You can load any cad model to our online instant quote engine and get going yesterday',
+          subtitle: 'A revolution is on the horizon. Parts made overnight, in quantities that will blow your mind. 100\'s of parts manufactured overnight by machines that require no tooling <br />Impossible? Not anymore. At Trupart, we have developed a proprietary process that allows us to 3D print difficult geometries, in exotic materials that your big 3 print corporations cannot offer. Our exclusive part finishing strengthens and smooths 3d printed parts closing the gap on injection molding.<br />Do you like spending 10s of thousands of dollars on tooling and waiting 3 month, then sending back to touch it up because it was off a couple thou?<br />Well your dream has come tru. Produce3D our inhouse 3D print factory is prepared for your production parts. Multiheaded printers producing hundreds of parts a day. <br /> Flame retardant ABS certed to FAR 25.843, FDA nylon and PETG for food packaging. Just some of our certed materials prepared for your production, or emergency. You can load any cad model to our online instant quote engine and get going yesterday',
           src: '3d.jpg',
           alt: '3D Printers',
         },
         {
           title: 'Design and Engineering',
-          subtitle: '3D Scabbers abd orubters with more sofware than any one shop needs, engineers who have scrapped out moreparts in their life it would make you think twice, and fabricatrs who do their job like their life depended on it. A recipe, that is no secret, develops <br />Time is a testament of engineers and fabricators. You wont hold long in this industry with bubble gum welds, scratches all over the sheet metal, bend radius nowhere near, and ngineering calling out for anno stainless. We have seen it all and contributed our part to it as well, a long time ago in a galaxy far far away',
+          subtitle: '3D Scanners and printers with more software than any one shop needs, engineers who have scrapped out more parts in their life it would make you think twice, and fabricators who do their job like their life depended on it. A recipe, that is no secret, develops <br />Time is a testament of engineers and fabricators. You wont hold long in this industry with bubble gum welds, scratches all over the sheet metal, bend radius nowhere near, and engineering calling out for anno stainless. We have seen it all and contributed our part to it as well, a long time ago in a galaxy far far away',
           src: 'laser.jpg',
           alt: 'Engineer testing designs',
         },
         {
           title: 'Polishing',
-          subtitle: 'It\'s rare finding a goog polisher these days. Expensive, long lead times, and sometimes you gotta send it back. Well, we do polishing in house <br /> Quality polishing by picky people. Comets, streaks we understand what you need. Been making parts for artists and medical devices for many years. If you can meet that muster you have the green light.<br />Mill Non directional #8 is a beatiful thing, but it needs to be handled correctly. The right film, with the right adhesivem, carefully handled so your expensive, soon to be your problem is in mint condition, ready fr a blinding experience<br /> Parts fabricated and polished in the same place. We have no one to blame if you don\'t like it',
+          subtitle: 'It\'s rare finding a good polisher these days. Expensive, long lead times, and sometimes you got to send it back. Well, we do polishing in house <br /> Quality polishing by picky people. Comets, streaks we understand what you need. Been making parts for artists and medical devices for many years. If you can meet that muster you have the green light.<br />Mill Non directional #8 is a beautiful thing, but it needs to be handled correctly. The right film, with the right adhesive, carefully handled so your expensive, soon to be your problem is in mint condition, ready for a blinding experience<br /> Parts fabricated and polished in the same place. We have no one to blame if you don\'t like it',
           src: 'polish.jpg',
           alt: 'perfectly polished metal',
         },
