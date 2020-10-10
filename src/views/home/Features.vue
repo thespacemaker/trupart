@@ -52,7 +52,7 @@
         >
           <base-subheading
             :right="$vuetify.breakpoint.mdAndUp"
-            subtitle="Our sheet metal team, metal fabricators, laser cutting ninjas, punch press techs, picky quality control, press break wizards, waterjet wonders, sensational shippers, kind, smart and funny front office will attend to your needs, make high quality, well thought out manufactured parts quickly!"
+            subtitle="Our Sheetmetal team, metal fabricators, laser cutting ninjas, punch press techs, picky quality control, press break wizards, waterjet wonders, sensational shippers, kind, smart and funny front office will attend to your needs, make high quality, well thought out manufactured parts quickly!"
             title="Your Ideas, From Scratch"
           />
         </v-col>

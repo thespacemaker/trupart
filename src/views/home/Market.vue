@@ -7,7 +7,7 @@
   >
     <base-subheading
       class="mb-12"
-      subtitle="How TruPart builds the future"
+      subtitle="How Trupart builds the future"
       title="Our Stats"
     />
 

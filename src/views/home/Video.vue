@@ -7,7 +7,7 @@
     <base-subheading
       class="mb-12"
       subtitle="Sit back and enjoy."
-      title="TruPart in Motion"
+      title="Trupart in Motion"
     />
 
     <base-card
@@ -22,7 +22,7 @@
         height="100%"
         src="https://www.youtube.com/embed/pV82LruAeNk"
         width="100%"
-        title="Youtube video of trupart manufacturing"
+        title="YouTube video of trupart manufacturing"
       />
     </base-card>
   </v-container>

@@ -7,7 +7,7 @@
     <base-subheading
       class="mb-12"
       subtitle="What sets us apart"
-      title="TruPart"
+      title="Trupart"
     />
 
     <v-row
