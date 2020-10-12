@@ -20,19 +20,11 @@
           title="200+ Years Experience"
         />
       </v-col>
-      <v-lazy
-        v-model="isActive"
-        :options="{
-          threshold: .5
-        }"
-        min-height="200"
-        transition="fade-transition"
-      >
-        <v-col>
-          <base-img-card :src="require('@/assets/features/2.jpg')" />
-        </v-col>
-      </v-lazy>
+      <v-col>
+        <base-img-card :src="require('@/assets/features/2.jpg')" />
+      </v-col>
     </v-row>
+    <br class="hidden-md-and-up">
 
     <v-lazy
       v-model="isActive"
@@ -62,6 +54,8 @@
         </v-col>
       </v-row>
     </v-lazy>
+
+    <br class="hidden-md-and-up">
     <v-row align="center">
       <v-col
         cols="12"
@@ -84,5 +78,9 @@
 <script>
   export default {
     name: 'HomeFeatures',
+
+    data: () => ({
+      isActive: false,
+    }),
   }
 </script>

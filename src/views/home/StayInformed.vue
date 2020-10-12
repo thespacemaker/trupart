@@ -60,5 +60,9 @@
     components: {
       // Subscribe: () => import('@/components/Subscribe'),
     },
+
+    data: () => ({
+      dialog: false,
+    }),
   }
 </script>
