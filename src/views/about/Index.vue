@@ -100,7 +100,7 @@
           size="140"
         >
           <v-img
-            :src="require(`@/assets/team/${member.src}`)"
+            :src="require(`@/assets/team/${member.src}?vuetify-preload`)"
           >
             <template v-slot:placeholder>
               <v-row
@@ -198,7 +198,7 @@
             :stats="stats"
             color="#FA6F9E"
             dark
-            title="Blockchain Data"
+            title="Business Stats"
             width="100%"
           />
         </v-col>
@@ -210,13 +210,15 @@
             :stats="stats2"
             color="secondary"
             dark
-            title="Price Statistics"
+            title="The Fight Against COVID"
             width="100%"
           />
         </v-col>
       </v-row>
     </v-container>
   </v-container>
+
+  <!-- <h2>test</h2> -->
 </template>
 
 <script>
@@ -225,7 +227,7 @@
 
     metaInfo: {
       // title will be injected into parent titleTemplate
-      title: 'About Us',
+      title: 'About',
       meta: [{
         vmid: 'description',
         name: 'description',
@@ -267,13 +269,13 @@
         },
         {
           name: 'Mary Murillo',
-          src: 'mary.png',
+          src: 'Mary.png',
           pos: 'Office Manager',
           blurb: 'Over 40 Years Mary has been the foundation to every job, knowing every process ensuring parts from the bigging mmet spec.',
         },
         {
           name: 'David Cisneros',
-          src: 'david.png',
+          src: 'David.png',
           pos: 'Quality Control',
           blurb: 'Starting on the Waterjet, David has worked his way up making quality parts, and now inspects them. ',
         },
