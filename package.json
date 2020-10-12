@@ -40,6 +40,8 @@
     "webpack": "^4.41.5"
   },
   "dependencies": {
-    "imagemin-mozjpeg": "^9.0.0"
+    "axios": "^0.20.0",
+    "imagemin-mozjpeg": "^9.0.0",
+    "vue2-dropzone": "^3.6.0"
   }
 }
