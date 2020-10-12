@@ -6,14 +6,21 @@
     <base-subheading
       class="mb-12 primary--text"
       tag="h1"
-      title="Our Services"
+      title="Our Tools"
     />
 
     <v-container>
       <v-row justify="center">
         <v-col
           cols="12"
-          md="6"
+          class="text-center"
+        >
+          <b>
+            Upload an image below to convert to a .dxf
+          </b>
+        </v-col>
+        <v-col
+          cols="12"
         >
           <vue-dropzone
             id="dropzone"
@@ -21,6 +28,23 @@
             :options="dropzoneOptions"
             @vdropzone-complete="completed"
           />
+        </v-col>
+        <v-col
+          cols="12"
+          class="text-center"
+        >
+          <v-btn v-if="showStatus">
+            Converting...
+          </v-btn>
+          <v-btn v-if="showError">
+            There was an error with your upload. Please try again later.
+          </v-btn>
+          <v-btn
+            v-if="showDownloadButton"
+            :href="uploadURL"
+          >
+            Download
+          </v-btn>
         </v-col>
       </v-row>
     </v-container>
@@ -62,13 +86,13 @@
   import axios from 'axios'
 
   export default {
-    name: 'ToolIndex',
+    name: 'ToolsIndex',
     components: {
       vueDropzone: vue2Dropzone,
     },
     metaInfo: {
       // title will be injected into parent titleTemplate
-      title: 'Our Services',
+      title: 'Our Tools',
       meta: [{
         vmid: 'description',
         name: 'description',
@@ -82,12 +106,19 @@
     },
     data: () => ({
       postBody: '',
-      s3Body: '',
-      s3URL: '',
+      attempts: 0,
+      showStatus: false,
+      showDownloadButton: false,
+      showError: false,
+      uploadID: '',
+      uploadURL: '',
       fileToUpload: '',
+      filename: '',
       dropzoneOptions: {
         url: 'https://httpbin.org/post',
         thumbnailWidth: 150,
+        maxFiles: 1,
+        acceptedFiles: 'image/*,application/pdf,.psd',
         headers: { 'My-Awesome-Header': 'header value' },
       },
       stats: [
@@ -108,34 +139,54 @@
         // formData.append('paramName', 'some value or other')
         console.log(file)
         console.log('file uploaded!')
-        const buf = Buffer.from(file.replace(/^data:image\/\w+;base64,/, ''), 'base64')
-        this.fileToUpload = { file: buf }
-        this.postBody = '"name":"' + file.name + '"'
+        // const buf = Buffer.from(file.dataURL.replace(/^data:image\/\w+;base64,/, ''), 'base64')
+        this.fileToUpload = file.dataURL.split(';base64,')[1]
+        this.filename = file.upload.filename
+        // console.log(this.filename)
+        // console.log(this.fileToUpload)
+        // this.postBody = '"name":"' + file.name + '"'
         this.getS3URL()
       },
       getS3URL () {
-        axios.post('http://127.0.0.1:5000/upload_file', {
-          body: this.postBody,
+        console.log('sending URL')
+        axios.post('https://api.convertio.co/convert', {
+          apikey: '71d64d3f40060d5a8c665c91ed67dd38',
+          input: 'base64',
+          file: this.fileToUpload,
+          filename: this.filename,
+          outputformat: 'dxf',
         })
           .then(response => {
-            this.s3Body = response.data.fields
-            this.s3URL = response.data.url
-            this.uploadToS3()
+            this.uploadID = response.data.data.id
+            // console.log(response.data.data.id)
+            this.showStatus = true
+            setTimeout(() => {
+              this.checkUpload()
+            }, 3000)
           })
           .catch(e => {
             this.errors.push(e)
           })
       },
-      uploadToS3 () {
-        const joinedObject = {
-          ...this.s3Body,
-          ...this.fileToUpload,
-        }
-        axios.post(this.s3URL, {
-          body: joinedObject,
-        })
+      checkUpload () {
+        axios.get('https://api.convertio.co/convert/' + this.uploadID + '/status')
           .then(response => {
-            console.log(response)
+            if (this.attempts <= 4) {
+              if (response.data.data.output.url != null) {
+                this.uploadURL = response.data.data.output.url
+                console.log(response.data.data.output.url)
+                this.showStatus = false
+                this.showDownloadButton = true
+              } else {
+                this.attempts++
+                setTimeout(() => {
+                  this.checkUpload()
+                }, 3000)
+              }
+            } else {
+              this.showStatus = false
+              this.showError = true
+            }
           })
           .catch(e => {
             this.errors.push(e)

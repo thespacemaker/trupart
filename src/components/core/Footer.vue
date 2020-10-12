@@ -65,6 +65,12 @@
           >
             About
           </router-link>
+          <router-link
+            class="title font-weight-light grey--text d-block mb-4"
+            to="/about"
+          >
+            Tools
+          </router-link>
           <!-- <a
             href="#"
             class="title font-weight-light grey--text d-block"

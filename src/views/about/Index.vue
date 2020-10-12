@@ -217,8 +217,6 @@
       </v-row>
     </v-container>
   </v-container>
-
-  <!-- <h2>test</h2> -->
 </template>
 
 <script>
