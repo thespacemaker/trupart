@@ -167,7 +167,7 @@
         },
         {
           title: 'Metal Stamping',
-          subtitle: 'Metal Stamping our found Karl Schlosser's bread and butter. Machines cast in metal, built to last century\'s like heirlooms, typical of that generations quality. One we strive to achieve by the minute<br />Time-tested, reject rates of 0.02 consistently for 46 years, we make mistakes, the numbers don\'t lie though. It\'s rare, we don\'t charge enough to do the job twice<br />Brilliant people making quality parts with engineers who can build rockets, cars, or whatever is called upon. Quite frankly, they have built all that and I'm sure other items that are so top secret we\'d be shot if we knew',
+          subtitle: 'Metal Stamping our found Karl Schlosser\'s bread and butter. Machines cast in metal, built to last century\'s like heirlooms, typical of that generations quality. One we strive to achieve by the minute<br />Time-tested, reject rates of 0.02 consistently for 46 years, we make mistakes, the numbers don\'t lie though. It\'s rare, we don\'t charge enough to do the job twice<br />Brilliant people making quality parts with engineers who can build rockets, cars, or whatever is called upon. Quite frankly, they have built all that and I\'m sure other items that are so top secret we\'d be shot if we knew',
           src: 'stamping.jpg',
           alt: 'Many stamped copper pieces',
         },
