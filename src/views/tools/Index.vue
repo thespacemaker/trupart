@@ -171,7 +171,7 @@
       checkUpload () {
         axios.get('https://api.convertio.co/convert/' + this.uploadID + '/status')
           .then(response => {
-            if (this.attempts <= 4) {
+            if (this.attempts >= 4) {
               if (response.data.data.output.url != null) {
                 this.uploadURL = response.data.data.output.url
                 console.log(response.data.data.output.url)
