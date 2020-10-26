@@ -21,7 +21,7 @@
 
 <script>
   export default {
-    name: 'specs',
+    name: 'Specs',
 
     data: () => ({
       headers: [
@@ -30,11 +30,19 @@
           align: 'start',
           value: 'title',
         },
-        { text: 'Material Thickness Inch (in)', value: 'in' },
-        { text: 'Material Thickness Milimeters (m)', value: 'mm' },
-        { text: 'CO2 4.0 kW (in/min)', value: 'co2' },
-        { text: 'Disk 4.0 kW (in/min)', value: 'disk' },
-        { text: 'Fiber 4.0 kW (in/min)', value: 'fiber' },
+        { text: 'Density', value: 'lb/in3' },
+        { text: 'Brinell Hardness', value: 'RB' },
+        { text: 'Ultimate Tensile Strength', value: 'PSI' },
+        { text: 'Yield Tensile Strength', value: 'PSI' },
+        { text: 'Shear Modulus', value: 'KSI' },
+        { text: 'Electrical Resistivity', value: 'OHM' },
+        { text: 'Magnetic Permeability ', value: 'ohm' },
+        { text: 'Thermal Conductivity', value: '°F' },
+        { text: 'Melting Point', value: '°F' },
+        { text: 'Component Elements', value: '' },
+        { text: 'Elongation at Break', value: '%' },
+        { text: 'Elongation at Break', value: '%' },
+        { text: 'Elongation at Break', value: '%' },
       ],
       specsData: [
         {

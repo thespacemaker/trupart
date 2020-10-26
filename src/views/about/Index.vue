@@ -196,7 +196,7 @@
         >
           <base-info-card
             :stats="stats"
-            color="#FA6F9E"
+            color="#2a9df4"
             dark
             title="Business Stats"
             width="100%"
@@ -229,7 +229,7 @@
       meta: [{
         vmid: 'description',
         name: 'description',
-        content: 'An about page for trupart manufacturing',
+        content: 'An about page for Trupart Manufacturing',
       }],
     },
 
@@ -251,7 +251,7 @@
           name: 'Ingrid Boehm',
           src: 'ingrid.png',
           pos: 'Business Manager',
-          blurb: '40 Years in business management, maintains foundational business practice.',
+          blurb: '40 Years in business management, maintains foundational business financing practice.',
         },
         {
           name: 'Shane Prukop',
@@ -263,13 +263,13 @@
           name: 'Stephen Wall',
           src: 'steve.png',
           pos: 'Shop Foreman',
-          blurb: 'Leveraging 40+ years in manufacturing,developes processs to ensure quality, safety and speed. ',
+          blurb: 'Leveraging 40+ years in manufacturing Steve is the largest component in  designing sculptures, modifying complicated CAD models with the latest in technology including 3d scanning, powerful CAD/CAM software as well as manages project completion to ensure quality, safety and speed. ',
         },
         {
           name: 'Mary Murillo',
           src: 'Mary.png',
           pos: 'Office Manager',
-          blurb: 'Over 40 Years Mary has been the foundation to every job, knowing every process ensuring parts from the bigging mmet spec.',
+          blurb: 'Over 40 Years Mary has been the foundation to every job, knowing every process ensuring parts from the beginning meet spec.',
         },
         {
           name: 'David Cisneros',
@@ -281,19 +281,31 @@
           name: 'Ozwaldo Topete',
           src: 'ozzy.png',
           pos: 'Blanking Technician',
-          blurb: 'Master of mamny machines, know by customers as laser ninja sword for his relentless persuit for edge quality and job batching.',
+          blurb: 'Master of many machines, know by customers as laser ninja sword for his relentless pursuit for edge quality and job batching.',
         },
         {
           name: 'Miguel Monroy',
           src: 'miguel.png',
-          pos: 'Designer',
-          blurb: 'A true legend in manufacturing, 25 years plus of sheet metal, he utilizes the latest in tech to make bends, that shouldnt have been birthed.',
+          pos: 'Fabricator',
+          blurb: 'A true legend in manufacturing, 25 years plus of sheet metal, he utilizes the latest in tech to make bends, that should have  never been conceived.',
         },
         {
-          name: 'Fabian Martinez-Mireles ',
-          src: 'fabian.png',
-          pos: 'Expedite',
-          blurb: 'Thorough, detailed, consistant,accurate, all of the quaolities sought after, with none of the bad habits. A future in manufactuing.',
+          name: 'Jesse Perez',
+          src: 'Jesse.png',
+          pos: '',
+          blurb: 'He would have his job based on his go get \'em attitude alone, but what comes with the man who is always smiling, and positive even in the grimmest of situations. ',
+        },
+        {
+          name: 'Floyd',
+          src: 'Jesse.png',
+          pos: '',
+          blurb: 'He would have his job based on his go get \'em attitude alone, but what comes with the man who is always smiling, and positive even in the grimmest of situations. ',
+        },
+        {
+          name: 'Robert',
+          src: 'Jesse.png',
+          pos: '',
+          blurb: 'He would have his job based on his go get \'em attitude alone, but what comes with the man who is always smiling, and positive even in the grimmest of situations. ',
         },
       ],
     }),

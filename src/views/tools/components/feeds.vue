@@ -21,12 +21,12 @@
 
 <script>
   export default {
-    name: 'feedsAndSpeeds',
+    name: 'FeedsAndSpeeds',
 
     data: () => ({
       headers: [
         {
-          text: 'Material',
+          text: 'Common Materials',
           align: 'start',
           value: 'title',
         },

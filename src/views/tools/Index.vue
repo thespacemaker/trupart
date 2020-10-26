@@ -24,7 +24,9 @@
             class="text-center"
             to="/"
           >
-            <h2 class="text-center ma-8">Converters</h2>
+            <h2 class="text-center ma-8">
+              Converters
+            </h2>
           </v-card>
         </v-col>
         <v-col
