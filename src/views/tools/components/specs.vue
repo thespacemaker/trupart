@@ -21,7 +21,7 @@
 
 <script>
   export default {
-    name: 'specs',
+    name: 'Specs',
 
     data: () => ({
       headers: [

@@ -1,27 +1,94 @@
 <template>
   <v-card>
+    <v-card-title>Feeds and speeds</v-card-title>
+    <v-card-subtitle>Click on a panel below to see various feeds and speeds for different materials</v-card-subtitle>
     <v-expansion-panels inset>
-      <v-expansion-panel
-        v-for="(item,i) in feedsData"
-        :key="i"
-      >
-        <v-expansion-panel-header>{{ item.title }}</v-expansion-panel-header>
-        <v-expansion-panel-content>
-          <v-data-table
-            :headers="headers"
-            :items="item.items"
-            hide-default-footer
-            class="elevation-1"
-          />
-        </v-expansion-panel-content>
-      </v-expansion-panel>
+      <v-row class="px-6">
+        <v-col cols="6">
+          <h3 class="my-4">
+            Steel
+          </h3>
+          <v-expansion-panel
+            v-for="(item,i) in steelData"
+            :key="i"
+          >
+            <v-expansion-panel-header>{{ item.title }}</v-expansion-panel-header>
+            <v-expansion-panel-content>
+              <v-data-table
+                :headers="headers"
+                :items="item.items"
+                hide-default-footer
+                class="elevation-1"
+              />
+            </v-expansion-panel-content>
+          </v-expansion-panel>
+        </v-col>
+
+        <v-col cols="6">
+          <h3 class="my-4">
+            Stainless Steel
+          </h3>
+          <v-expansion-panel
+            v-for="(item,i) in stainlessData"
+            :key="i"
+          >
+            <v-expansion-panel-header>{{ item.title }}</v-expansion-panel-header>
+            <v-expansion-panel-content>
+              <v-data-table
+                :headers="headers"
+                :items="item.items"
+                hide-default-footer
+                class="elevation-1"
+              />
+            </v-expansion-panel-content>
+          </v-expansion-panel>
+        </v-col>
+        <v-col cols="6">
+          <h3 class="my-4">
+            Aluminum
+          </h3>
+          <v-expansion-panel
+            v-for="(item,i) in aluminumData"
+            :key="i"
+          >
+            <v-expansion-panel-header>{{ item.title }}</v-expansion-panel-header>
+            <v-expansion-panel-content>
+              <v-data-table
+                :headers="headers"
+                :items="item.items"
+                hide-default-footer
+                class="elevation-1"
+              />
+            </v-expansion-panel-content>
+          </v-expansion-panel>
+        </v-col>
+        <v-col cols="6">
+          <h3 class="my-4">
+            Copper
+          </h3>
+          <v-expansion-panel
+            v-for="(item,i) in copperData"
+            :key="i"
+          >
+            <v-expansion-panel-header>{{ item.title }}</v-expansion-panel-header>
+            <v-expansion-panel-content>
+              <v-data-table
+                :headers="headers"
+                :items="item.items"
+                hide-default-footer
+                class="elevation-1"
+              />
+            </v-expansion-panel-content>
+          </v-expansion-panel>
+        </v-col>
+      </v-row>
     </v-expansion-panels>
   </v-card>
 </template>
 
 <script>
   export default {
-    name: 'feedsAndSpeeds',
+    name: 'FeedsAndSpeeds',
 
     data: () => ({
       headers: [
@@ -36,7 +103,7 @@
         { text: 'Disk 4.0 kW (in/min)', value: 'disk' },
         { text: 'Fiber 4.0 kW (in/min)', value: 'fiber' },
       ],
-      feedsData: [
+      steelData: [
         {
           title: 'STEEL (USING O2)',
           items: [
@@ -223,6 +290,8 @@
             },
           ],
         },
+      ],
+      stainlessData: [
         {
           title: 'STAINLESS STEEL (USING N2)',
           items: [
@@ -283,7 +352,7 @@
               fiber: 138,
             },
             {
-              title: 'Steel N2',
+              title: 'Stainless Steel N2',
               in: 0.375,
               mm: 9.5,
               co2: 28,
@@ -291,7 +360,7 @@
               fiber: 59,
             },
             {
-              title: 'Steel N2',
+              title: 'Stainless Steel N2',
               in: 0.500,
               mm: 12.7,
               co2: 16,
@@ -299,7 +368,7 @@
               fiber: 39,
             },
             {
-              title: 'Steel N2',
+              title: 'Stainless Steel N2',
               in: 0.625,
               mm: 16.0,
               co2: 14,
@@ -308,6 +377,8 @@
             },
           ],
         },
+      ],
+      aluminumData: [
         {
           title: 'Aluminum (USING N2)',
           items: [
@@ -413,6 +484,8 @@
             },
           ],
         },
+      ],
+      copperData: [
         {
           title: 'Copper (USING O2)',
           items: [
