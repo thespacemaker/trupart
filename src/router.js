@@ -6,6 +6,7 @@ const About = () => import('./views/about/Index.vue')
 const Services = () => import('./views/services/Index.vue')
 const Tools = () => import('./views/tools/Index.vue')
 const Data = () => import('./views/tools/data.vue')
+const Convert = () => import('./views/tools/converters.vue')
 
 Vue.use(Router)
 Vue.use(Meta)
@@ -38,6 +39,11 @@ export default new Router({
       path: '/tools/data',
       name: 'data',
       component: Data,
+    },
+    {
+      path: '/tools/convert',
+      name: 'convert',
+      component: Convert,
     },
   ],
 })
