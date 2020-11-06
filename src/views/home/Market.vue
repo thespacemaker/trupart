@@ -19,7 +19,7 @@
         >
           <base-info-card
             :stats="stats"
-            color="#FA6F9E"
+            color="#1167b1"
             dark
             title="Business stats"
             width="100%"

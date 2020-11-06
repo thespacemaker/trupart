@@ -93,7 +93,7 @@
     data: () => ({
       headers: [
         {
-          text: 'Material',
+          text: 'Common Materials',
           align: 'start',
           value: 'title',
         },

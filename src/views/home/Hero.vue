@@ -33,7 +33,7 @@
               class="font-weight-bold"
               :class="[$vuetify.breakpoint.smAndDown ? 'display-2 white--text' : 'display-4']"
             >
-              TruPart <span class="font-weight-light">Manufacturing</span>
+              Trupart <span class="font-weight-light">Manufacturing</span>
             </h1>
 
             <div

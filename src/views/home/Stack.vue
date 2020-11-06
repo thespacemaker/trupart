@@ -82,7 +82,7 @@
           </tr>
 
           <tr>
-            <td>Enginerring Support</td>
+            <td>Engineering Support</td>
             <td><check /></td>
             <td><check /></td>
             <td />
@@ -199,7 +199,7 @@
         render (h) {
           return h('v-avatar', {
             props: {
-              color: '#46D5D1',
+              color: '#1167b1',
               size: 24,
             },
           }, [h('v-icon', { props: { small: true, dark: true } }, 'mdi-check')])
