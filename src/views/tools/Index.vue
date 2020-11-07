@@ -43,6 +43,23 @@
             <h2 class="text-center ma-8">Engineer Data</h2>
           </v-card>
         </v-col>
+        <v-col
+          cols="12"
+          md="6"
+          class="text-center"
+        >
+          <v-card
+            elevation="2"
+            outlined
+            tile
+            align="center"
+            class="text-center"
+            target="_null"
+            href="https://sketch.trupart.com"
+          >
+            <h2 class="text-center ma-8">Online CAD</h2>
+          </v-card>
+        </v-col>
       </v-row>
     </v-container>
 
