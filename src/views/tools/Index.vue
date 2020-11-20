@@ -55,7 +55,7 @@
             align="center"
             class="text-center"
             target="_null"
-            href="https://sketch.trupart.com"
+            href="http://sketch.trupartmfg.com"
           >
             <h2 class="text-center ma-8">Online CAD</h2>
           </v-card>
@@ -95,15 +95,9 @@
 </template>
 
 <script>
-  // import vue2Dropzone from 'vue2-dropzone'
-  // import 'vue2-dropzone/dist/vue2Dropzone.min.css'
-  // import axios from 'axios'
 
   export default {
     name: 'ToolsIndex',
-    // components: {
-    //   vueDropzone: vue2Dropzone,
-    // },
     metaInfo: {
       // title will be injected into parent titleTemplate
       title: 'Our Tools',
@@ -148,64 +142,5 @@
         { title: '7', subtitle: 'Open Source Contributions' },
       ],
     }),
-    // methods: {
-    //   completed (file) {
-    //     // formData.append('paramName', 'some value or other')
-    //     console.log(file)
-    //     console.log('file uploaded!')
-    //     // const buf = Buffer.from(file.dataURL.replace(/^data:image\/\w+;base64,/, ''), 'base64')
-    //     this.fileToUpload = file.dataURL.split(';base64,')[1]
-    //     this.filename = file.upload.filename
-    //     // console.log(this.filename)
-    //     // console.log(this.fileToUpload)
-    //     // this.postBody = '"name":"' + file.name + '"'
-    //     this.getS3URL()
-    //   },
-    //   getS3URL () {
-    //     console.log('sending URL')
-    //     axios.post('https://api.convertio.co/convert', {
-    //       apikey: '71d64d3f40060d5a8c665c91ed67dd38',
-    //       input: 'base64',
-    //       file: this.fileToUpload,
-    //       filename: this.filename,
-    //       outputformat: 'dxf',
-    //     })
-    //       .then(response => {
-    //         this.uploadID = response.data.data.id
-    //         // console.log(response.data.data.id)
-    //         this.showStatus = true
-    //         setTimeout(() => {
-    //           this.checkUpload()
-    //         }, 3000)
-    //       })
-    //       .catch(e => {
-    //         this.errors.push(e)
-    //       })
-    //   },
-    //   checkUpload () {
-    //     axios.get('https://api.convertio.co/convert/' + this.uploadID + '/status')
-    //       .then(response => {
-    //         if (this.attempts >= 4) {
-    //           if (response.data.data.output.url != null) {
-    //             this.uploadURL = response.data.data.output.url
-    //             console.log(response.data.data.output.url)
-    //             this.showStatus = false
-    //             this.showDownloadButton = true
-    //           } else {
-    //             this.attempts++
-    //             setTimeout(() => {
-    //               this.checkUpload()
-    //             }, 3000)
-    //           }
-    //         } else {
-    //           this.showStatus = false
-    //           this.showError = true
-    //         }
-    //       })
-    //       .catch(e => {
-    //         this.errors.push(e)
-    //       })
-    //   },
-    // },
   }
 </script>

@@ -22,12 +22,6 @@
         >
           Metal Specifications
         </v-btn>
-        <v-btn color="error">
-          Error
-        </v-btn>
-        <v-btn disabled>
-          Disabled
-        </v-btn>
       </v-row>
 
       <v-dialog
@@ -50,6 +44,7 @@
 <script>
   import Feeds from './components/feeds'
   import Specs from './components/specs'
+
   export default {
     name: 'EngineerData',
     components: {
