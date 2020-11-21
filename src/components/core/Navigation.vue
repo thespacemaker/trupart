@@ -52,6 +52,7 @@
         { title: 'Home', icon: 'home', to: '/' },
         { title: 'About', icon: 'info', to: '/about' },
         { title: 'Services', icon: 'work', to: '/services' },
+        { title: 'Tools', icon: 'work', to: '/tools' },
       ],
     }),
 

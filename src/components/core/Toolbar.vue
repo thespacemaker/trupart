@@ -28,7 +28,6 @@
     </v-toolbar-title>
 
     <v-spacer />
-
     <v-btn
       :dark="$vuetify.breakpoint.smAndDown"
       :icon="$vuetify.breakpoint.smAndDown"
