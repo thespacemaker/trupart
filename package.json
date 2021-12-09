@@ -41,6 +41,7 @@
   },
   "dependencies": {
     "axios": "^0.20.0",
+    "caniuse-lite": "^1.0.30001285",
     "imagemin-mozjpeg": "^9.0.0",
     "vue2-dropzone": "^3.6.0"
   }

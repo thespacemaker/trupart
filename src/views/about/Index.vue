@@ -135,10 +135,7 @@
       </v-col>
     </v-row>
 
-    <base-subheading
-      class="mb-8 primary--text"
-      title="Advisor"
-    />
+<!--    -->
 
     <v-row justify="center">
       <v-col
@@ -259,12 +256,12 @@
           pos: 'Founder & CEO',
           blurb: '3rd generation. Push, Pull, whatever it takes to Support our World Class Crew, 20+ years in the Industry',
         },
-        {
-          name: 'Stephen Wall',
-          src: 'steve.png',
-          pos: 'Shop Foreman',
-          blurb: 'Leveraging 40+ years in manufacturing,developes processs to ensure quality, safety and speed. ',
-        },
+        // {
+        //   name: 'Stephen Wall',
+        //   src: 'steve.png',
+        //   pos: 'Shop Foreman',
+        //   blurb: 'Leveraging 40+ years in manufacturing,developes processs to ensure quality, safety and speed. ',
+        // },
         {
           name: 'Mary Murillo',
           src: 'Mary.png',
@@ -277,24 +274,24 @@
           pos: 'Quality Control',
           blurb: 'Starting on the Waterjet, David has worked his way up making quality parts, and now inspects them. ',
         },
-        {
-          name: 'Ozwaldo Topete',
-          src: 'ozzy.png',
-          pos: 'Blanking Technician',
-          blurb: 'Master of mamny machines, know by customers as laser ninja sword for his relentless persuit for edge quality and job batching.',
-        },
+        // {
+        //   name: 'Ozwaldo Topete',
+        //   src: 'ozzy.png',
+        //   pos: 'Blanking Technician',
+        //   blurb: 'Master of mamny machines, know by customers as laser ninja sword for his relentless persuit for edge quality and job batching.',
+        // },
         {
           name: 'Miguel Monroy',
           src: 'miguel.png',
           pos: 'Designer',
           blurb: 'A true legend in manufacturing, 25 years plus of sheet metal, he utilizes the latest in tech to make bends, that shouldnt have been birthed.',
         },
-        {
-          name: 'Fabian Martinez-Mireles ',
-          src: 'fabian.png',
-          pos: 'Expedite',
-          blurb: 'Thorough, detailed, consistant,accurate, all of the quaolities sought after, with none of the bad habits. A future in manufactuing.',
-        },
+        // {
+        //   name: 'Fabian Martinez-Mireles ',
+        //   src: 'fabian.png',
+        //   pos: 'Expedite',
+        //   blurb: 'Thorough, detailed, consistant,accurate, all of the quaolities sought after, with none of the bad habits. A future in manufactuing.',
+        // },
       ],
     }),
   }
